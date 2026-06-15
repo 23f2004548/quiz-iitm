@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "linux_w4_easy_001",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "basic-search",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "grep"
+    ],
+    "question": "Which command is used for pattern matching in text files?",
+    "options": [
+      "find",
+      "grep",
+      "cat",
+      "sort"
+    ],
+    "correct_answer": "grep"
+  },
+  {
+    "id": "linux_w4_easy_002",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "regex"
+    ],
+    "question": "What does regex stand for?",
+    "options": [
+      "Regular Expression",
+      "Registered Expression",
+      "Regex Engine",
+      "Regular Execution"
+    ],
+    "correct_answer": "Regular Expression"
+  },
+  {
+    "id": "linux_w4_easy_003",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "engines",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "BRE"
+    ],
+    "question": "Which regex engine does grep use by default?",
+    "options": [
+      "BRE",
+      "ERE",
+      "PCRE",
+      "Java Regex"
+    ],
+    "correct_answer": "BRE"
+  },
+  {
+    "id": "linux_w4_easy_004",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "engines",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "ERE"
+    ],
+    "question": "Which option enables ERE mode in grep?",
+    "options": [
+      "-r",
+      "-l",
+      "-E",
+      "-n"
+    ],
+    "correct_answer": "-E"
+  },
+  {
+    "id": "linux_w4_easy_005",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "dot",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "dot"
+    ],
+    "question": "What does '.' match in regex?",
+    "options": [
+      "Any single character",
+      "Any word",
+      "Only digits",
+      "Only letters"
+    ],
+    "correct_answer": "Any single character"
+  },
+  {
+    "id": "linux_w4_easy_006",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "special-characters",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "regex"
+    ],
+    "question": "Which are regex special characters?",
+    "options": [
+      ".",
+      "*",
+      "^",
+      "A"
+    ],
+    "correct_answers": [
+      ".",
+      "*",
+      "^"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_007",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "anchors",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "anchors"
+    ],
+    "question": "Which symbols are regex anchors?",
+    "options": [
+      "^",
+      "$",
+      "*",
+      "."
+    ],
+    "correct_answers": [
+      "^",
+      "$"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_008",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "digit",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "character-class"
+    ],
+    "question": "Which are valid POSIX character classes?",
+    "options": [
+      "[[:digit:]]",
+      "[[:alpha:]]",
+      "[[:space:]]",
+      "[[:hello:]]"
+    ],
+    "correct_answers": [
+      "[[:digit:]]",
+      "[[:alpha:]]",
+      "[[:space:]]"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_009",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "usage",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "grep"
+    ],
+    "question": "Which commands use grep correctly?",
+    "options": [
+      "grep 'hello' file.txt",
+      "cat file.txt | grep 'hello'",
+      "grep hello file.txt",
+      "All of the above"
+    ],
+    "correct_answers": [
+      "grep 'hello' file.txt",
+      "cat file.txt | grep 'hello'",
+      "grep hello file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_010",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "operators",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "regex"
+    ],
+    "question": "Which operators exist in ERE?",
+    "options": [
+      "+",
+      "?",
+      "|",
+      "#"
+    ],
+    "correct_answers": [
+      "+",
+      "?",
+      "|"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_011",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "file-search",
+    "subtopic": "count",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "fd"
+    ],
+    "question": "What file descriptor number represents stdout?",
+    "correct_answer": "1"
+  },
+  {
+    "id": "linux_w4_easy_012",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "anchors",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "regex"
+    ],
+    "question": "How many line anchors are commonly used in regex (^ and $)?",
+    "correct_answer": "2"
+  },
+  {
+    "id": "linux_w4_easy_013",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "digit",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "digit"
+    ],
+    "question": "How many decimal digits exist (0-9)?",
+    "correct_answer": "10"
+  },
+  {
+    "id": "linux_w4_easy_014",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "backreferences",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "backreference"
+    ],
+    "question": "Backreferences can refer to groups \\1 through \\?",
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_w4_easy_015",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "basic-search",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "grep"
+    ],
+    "question": "Display all lines containing the word hello from file.txt.",
+    "accepted_answers": [
+      "grep 'hello' file.txt",
+      "grep hello file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_016",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "pipe-search",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "grep",
+      "pipe"
+    ],
+    "question": "Display lines containing Linux from the output of cat file.txt.",
+    "accepted_answers": [
+      "cat file.txt | grep 'Linux'",
+      "cat file.txt | grep Linux"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_017",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "ere",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "grep",
+      "ERE"
+    ],
+    "question": "Search using Extended Regular Expressions in file.txt.",
+    "accepted_answers": [
+      "grep -E 'pattern' file.txt",
+      "egrep 'pattern' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_018",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "line-start",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "anchor"
+    ],
+    "question": "Display all lines beginning with Linux from file.txt.",
+    "accepted_answers": [
+      "grep '^Linux' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_019",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "line-end",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "anchor"
+    ],
+    "question": "Display all lines ending with Linux from file.txt.",
+    "accepted_answers": [
+      "grep 'Linux$' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_easy_020",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "digits",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "digit",
+      "grep"
+    ],
+    "question": "Display all lines containing at least one digit from file.txt.",
+    "accepted_answers": [
+      "grep '[[:digit:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_021",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "dot-operator",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "regex",
+      "."
+    ],
+    "question": "Which string matches the pattern 'c.t'?",
+    "options": [
+      "cat",
+      "cot",
+      "cut",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "id": "linux_w4_medium_022",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "asterisk",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "regex",
+      "*"
+    ],
+    "question": "What does 'ab*' match?",
+    "options": [
+      "a",
+      "ab",
+      "abbb",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "id": "linux_w4_medium_023",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "character-class",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "[]"
+    ],
+    "question": "Which string matches '[abc]'?",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "id": "linux_w4_medium_024",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "anchors",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "^"
+    ],
+    "question": "What does '^Linux' match?",
+    "options": [
+      "Lines starting with Linux",
+      "Lines ending with Linux",
+      "Lines containing Linux",
+      "Empty lines"
+    ],
+    "correct_answer": "Lines starting with Linux"
+  },
+  {
+    "id": "linux_w4_medium_025",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "anchors",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "$"
+    ],
+    "question": "What does 'Linux$' match?",
+    "options": [
+      "Lines ending with Linux",
+      "Lines beginning with Linux",
+      "Lines containing Linux",
+      "Empty lines"
+    ],
+    "correct_answer": "Lines ending with Linux"
+  },
+  {
+    "id": "linux_w4_medium_026",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ere-operators",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "ERE"
+    ],
+    "question": "Which operators are available in ERE but not directly in BRE?",
+    "options": [
+      "+",
+      "?",
+      "|",
+      "*"
+    ],
+    "correct_answers": [
+      "+",
+      "?",
+      "|"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_027",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "posix",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "POSIX"
+    ],
+    "question": "Which are valid POSIX character classes?",
+    "options": [
+      "[[:alpha:]]",
+      "[[:digit:]]",
+      "[[:space:]]",
+      "[[:linux:]]"
+    ],
+    "correct_answers": [
+      "[[:alpha:]]",
+      "[[:digit:]]",
+      "[[:space:]]"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_028",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ranges",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "ranges"
+    ],
+    "question": "Which strings match '[a-c]'?",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correct_answers": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_029",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "special-characters",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "regex"
+    ],
+    "question": "Which characters have special meaning in regex?",
+    "options": [
+      ".",
+      "*",
+      "^",
+      "$"
+    ],
+    "correct_answers": [
+      ".",
+      "*",
+      "^",
+      "$"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_030",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "ere",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "grep"
+    ],
+    "question": "Which commands enable ERE matching?",
+    "options": [
+      "grep -E",
+      "egrep",
+      "grep",
+      "cat"
+    ],
+    "correct_answers": [
+      "grep -E",
+      "egrep"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_031",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "groups",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "backreference"
+    ],
+    "question": "How many backreferences are supported according to the notes (\\1 through \\?)",
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_w4_medium_032",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ranges",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "range"
+    ],
+    "question": "How many lowercase English letters are matched by [a-z]?",
+    "correct_answer": "26"
+  },
+  {
+    "id": "linux_w4_medium_033",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ranges",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "range"
+    ],
+    "question": "How many digits are matched by [0-9]?",
+    "correct_answer": "10"
+  },
+  {
+    "id": "linux_w4_medium_034",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "digit",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "digit"
+    ],
+    "question": "How many characters are represented by decimal digits?",
+    "correct_answer": "10"
+  },
+  {
+    "id": "linux_w4_medium_035",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "basic-search",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "grep"
+    ],
+    "question": "Display all lines containing either cat or dog using ERE.",
+    "accepted_answers": [
+      "grep -E 'cat|dog' file.txt",
+      "egrep 'cat|dog' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_036",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "line-start",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "^"
+    ],
+    "question": "Display all lines starting with a digit.",
+    "accepted_answers": [
+      "grep '^[0-9]' file.txt",
+      "grep '^[[:digit:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_037",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "line-end",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "$"
+    ],
+    "question": "Display all lines ending with a digit.",
+    "accepted_answers": [
+      "grep '[0-9]$' file.txt",
+      "grep '[[:digit:]]$' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_038",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "alpha",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "alpha"
+    ],
+    "question": "Display all lines containing alphabetic characters.",
+    "accepted_answers": [
+      "grep '[[:alpha:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_039",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "alnum",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "alnum"
+    ],
+    "question": "Display all lines containing alphanumeric characters.",
+    "accepted_answers": [
+      "grep '[[:alnum:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_medium_040",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "space",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "space"
+    ],
+    "question": "Display all lines containing whitespace characters.",
+    "accepted_answers": [
+      "grep '[[:space:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_041",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "plus-operator",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "+",
+      "ERE"
+    ],
+    "question": "What does the regex 'ab+' match?",
+    "options": [
+      "a only",
+      "ab, abb, abbb",
+      "ab only",
+      "b only"
+    ],
+    "correct_answer": "ab, abb, abbb"
+  },
+  {
+    "id": "linux_w4_hard_042",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "question-operator",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "?",
+      "ERE"
+    ],
+    "question": "What does 'colou?r' match?",
+    "options": [
+      "color only",
+      "colour only",
+      "color and colour",
+      "Neither"
+    ],
+    "correct_answer": "color and colour"
+  },
+  {
+    "id": "linux_w4_hard_043",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "alternation",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "|"
+    ],
+    "question": "What does 'cat|dog' match?",
+    "options": [
+      "cat only",
+      "dog only",
+      "cat or dog",
+      "catdog"
+    ],
+    "correct_answer": "cat or dog"
+  },
+  {
+    "id": "linux_w4_hard_044",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "repetition",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "{n,m}"
+    ],
+    "question": "What does '[0-9]{2,4}' match?",
+    "options": [
+      "Exactly 2 digits",
+      "2 to 4 digits",
+      "4 digits only",
+      "Any number"
+    ],
+    "correct_answer": "2 to 4 digits"
+  },
+  {
+    "id": "linux_w4_hard_045",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "basics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "backreference"
+    ],
+    "question": "What does \\1 refer to in a regex?",
+    "options": [
+      "First line",
+      "First character",
+      "First captured group",
+      "First file"
+    ],
+    "correct_answer": "First captured group"
+  },
+  {
+    "id": "linux_w4_hard_046",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ere-features",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "ERE"
+    ],
+    "question": "Which operators are unique ERE features?",
+    "options": [
+      "+",
+      "?",
+      "|",
+      "."
+    ],
+    "correct_answers": [
+      "+",
+      "?",
+      "|"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_047",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "advanced",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "character-class"
+    ],
+    "question": "Which POSIX classes are valid?",
+    "options": [
+      "[[:upper:]]",
+      "[[:lower:]]",
+      "[[:graph:]]",
+      "[[:word:]]"
+    ],
+    "correct_answers": [
+      "[[:upper:]]",
+      "[[:lower:]]",
+      "[[:graph:]]"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_048",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "regex-search",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "grep"
+    ],
+    "question": "Which commands use ERE matching?",
+    "options": [
+      "grep -E",
+      "egrep",
+      "grep",
+      "cat"
+    ],
+    "correct_answers": [
+      "grep -E",
+      "egrep"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_049",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "anchors",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "anchors"
+    ],
+    "question": "Which patterns use anchors?",
+    "options": [
+      "^Linux",
+      "Linux$",
+      "^Linux$",
+      "Linux*"
+    ],
+    "correct_answers": [
+      "^Linux",
+      "Linux$",
+      "^Linux$"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_050",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "duplicate-patterns",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "backreference"
+    ],
+    "question": "Backreferences are commonly used to:",
+    "options": [
+      "Match repeated text",
+      "Reuse captured groups",
+      "Detect duplicates",
+      "Delete text"
+    ],
+    "correct_answers": [
+      "Match repeated text",
+      "Reuse captured groups",
+      "Detect duplicates"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_051",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ranges",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "range"
+    ],
+    "question": "How many uppercase English letters are matched by [A-Z]?",
+    "correct_answer": "26"
+  },
+  {
+    "id": "linux_w4_hard_052",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "hexadecimal",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "xdigit"
+    ],
+    "question": "How many hexadecimal symbols exist (0-9, A-F)?",
+    "correct_answer": "16"
+  },
+  {
+    "id": "linux_w4_hard_053",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "limits",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "backreference"
+    ],
+    "question": "What is the highest numbered backreference mentioned in the notes?",
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_w4_hard_054",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "anchors",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "anchors"
+    ],
+    "question": "How many anchor symbols are explicitly discussed (^ and $)?",
+    "correct_answer": "2"
+  },
+  {
+    "id": "linux_w4_hard_055",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "alternation",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "grep",
+      "|"
+    ],
+    "question": "Display all lines containing either error or warning.",
+    "accepted_answers": [
+      "grep -E 'error|warning' log.txt",
+      "egrep 'error|warning' log.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_056",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "repetition",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "{n,m}"
+    ],
+    "question": "Display lines containing exactly 3 digits in sequence.",
+    "accepted_answers": [
+      "grep -E '[0-9]{3}' file.txt",
+      "egrep '[0-9]{3}' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_057",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "uppercase",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "upper"
+    ],
+    "question": "Display all lines containing uppercase letters.",
+    "accepted_answers": [
+      "grep '[[:upper:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_058",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "lowercase",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "lower"
+    ],
+    "question": "Display all lines containing lowercase letters.",
+    "accepted_answers": [
+      "grep '[[:lower:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_059",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "optional-character",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "?"
+    ],
+    "question": "Match both color and colour using a single ERE pattern.",
+    "accepted_answers": [
+      "grep -E 'colou?r' file.txt",
+      "egrep 'colou?r' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_hard_060",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "duplicate-word",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "backreference"
+    ],
+    "question": "Match lines containing two occurrences of hello.",
+    "accepted_answers": [
+      "grep '\\(hello\\).*\\1' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_061",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "operator-precedence",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "ERE",
+      "precedence"
+    ],
+    "question": "Which operator has the lowest precedence in ERE?",
+    "options": [
+      "*",
+      "+",
+      "|",
+      "()"
+    ],
+    "correct_answer": "|"
+  },
+  {
+    "id": "linux_w4_expert_062",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "alternation",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "|"
+    ],
+    "question": "Which strings match the pattern 'cat|dog'?",
+    "options": [
+      "cat only",
+      "dog only",
+      "cat and dog",
+      "cat or dog"
+    ],
+    "correct_answer": "cat or dog"
+  },
+  {
+    "id": "linux_w4_expert_063",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "grouping",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "grouping"
+    ],
+    "question": "What is the primary purpose of parentheses in ERE?",
+    "options": [
+      "Anchoring",
+      "Grouping",
+      "Escaping",
+      "Sorting"
+    ],
+    "correct_answer": "Grouping"
+  },
+  {
+    "id": "linux_w4_expert_064",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "capturing",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "backreference"
+    ],
+    "question": "In BRE, which syntax creates a capture group?",
+    "options": [
+      "()",
+      "\\( \\)",
+      "[]",
+      "{}"
+    ],
+    "correct_answer": "\\( \\)"
+  },
+  {
+    "id": "linux_w4_expert_065",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "character-classes",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "character-class"
+    ],
+    "question": "Which POSIX character classes are valid?",
+    "options": [
+      "[[:print:]]",
+      "[[:graph:]]",
+      "[[:cntrl:]]",
+      "[[:regex:]]"
+    ],
+    "correct_answers": [
+      "[[:print:]]",
+      "[[:graph:]]",
+      "[[:cntrl:]]"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_066",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "special-characters",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "regex"
+    ],
+    "question": "Which symbols are regex metacharacters?",
+    "options": [
+      ".",
+      "*",
+      "^",
+      "$"
+    ],
+    "correct_answers": [
+      ".",
+      "*",
+      "^",
+      "$"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_067",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "repetition",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "repetition"
+    ],
+    "question": "Which operators represent repetition?",
+    "options": [
+      "*",
+      "+",
+      "?",
+      "{n,m}"
+    ],
+    "correct_answers": [
+      "*",
+      "+",
+      "?",
+      "{n,m}"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_068",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "whitespace",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "space"
+    ],
+    "question": "Which character classes can match whitespace?",
+    "options": [
+      "[[:space:]]",
+      "[[:blank:]]",
+      "[[:digit:]]",
+      "[[:alpha:]]"
+    ],
+    "correct_answers": [
+      "[[:space:]]",
+      "[[:blank:]]"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_069",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "duplicates",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "backreference"
+    ],
+    "question": "Backreferences are useful for:",
+    "options": [
+      "Matching repeated text",
+      "Reusing captured groups",
+      "Detecting duplicates",
+      "Compressing files"
+    ],
+    "correct_answers": [
+      "Matching repeated text",
+      "Reusing captured groups",
+      "Detecting duplicates"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_070",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "engines",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "BRE",
+      "ERE"
+    ],
+    "question": "Which commands use ERE matching?",
+    "options": [
+      "egrep",
+      "grep -E",
+      "grep",
+      "cat"
+    ],
+    "correct_answers": [
+      "egrep",
+      "grep -E"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_071",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "limits",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "backreference"
+    ],
+    "question": "What is the largest backreference number discussed in the notes?",
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_w4_expert_072",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "anchors",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "anchors"
+    ],
+    "question": "How many anchor operators are explicitly discussed?",
+    "correct_answer": "2"
+  },
+  {
+    "id": "linux_w4_expert_073",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "hexadecimal",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "xdigit"
+    ],
+    "question": "How many symbols exist in hexadecimal notation?",
+    "correct_answer": "16"
+  },
+  {
+    "id": "linux_w4_expert_074",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ranges",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "range"
+    ],
+    "question": "How many lowercase letters are matched by [a-z]?",
+    "correct_answer": "26"
+  },
+  {
+    "id": "linux_w4_expert_075",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ranges",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "range"
+    ],
+    "question": "How many uppercase letters are matched by [A-Z]?",
+    "correct_answer": "26"
+  },
+  {
+    "id": "linux_w4_expert_076",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "alternation",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "grep",
+      "|"
+    ],
+    "question": "Display all lines containing either linux, unix, or ubuntu.",
+    "accepted_answers": [
+      "grep -E 'linux|unix|ubuntu' file.txt",
+      "egrep 'linux|unix|ubuntu' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_077",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "repetition-range",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "{n,m}"
+    ],
+    "question": "Match lines containing between 2 and 5 consecutive digits.",
+    "accepted_answers": [
+      "grep -E '[0-9]{2,5}' file.txt",
+      "egrep '[0-9]{2,5}' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_078",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "hexadecimal",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "xdigit"
+    ],
+    "question": "Display all lines containing hexadecimal characters.",
+    "accepted_answers": [
+      "grep '[[:xdigit:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_079",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "printable",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "print"
+    ],
+    "question": "Display all lines containing printable characters.",
+    "accepted_answers": [
+      "grep '[[:print:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_080",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "duplicate-word",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "backreference"
+    ],
+    "question": "Match lines containing two occurrences of the word hello using a backreference.",
+    "accepted_answers": [
+      "grep '\\(hello\\).*\\1' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_081",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "complex-matching",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "regex",
+      "ERE"
+    ],
+    "question": "Which strings match the pattern '[A-Z][0-9]+'?",
+    "options": [
+      "A123",
+      "abc123",
+      "123A",
+      "abcd"
+    ],
+    "correct_answer": "A123"
+  },
+  {
+    "id": "linux_w4_expert_082",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "anchors",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "^",
+      "$"
+    ],
+    "question": "What does the pattern '^hello$' match?",
+    "options": [
+      "Any line containing hello",
+      "A line consisting only of hello",
+      "A line starting with hello",
+      "A line ending with hello"
+    ],
+    "correct_answer": "A line consisting only of hello"
+  },
+  {
+    "id": "linux_w4_expert_083",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "alternation",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "|"
+    ],
+    "question": "What does '(cat|dog)s?' match?",
+    "options": [
+      "cat, dog",
+      "cats, dogs",
+      "cat, cats, dog, dogs",
+      "Only cats and dogs"
+    ],
+    "correct_answer": "cat, cats, dog, dogs"
+  },
+  {
+    "id": "linux_w4_expert_084",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "repetition",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "+"
+    ],
+    "question": "Which string does NOT match 'a+'?",
+    "options": [
+      "a",
+      "aa",
+      "aaa",
+      ""
+    ],
+    "correct_answer": ""
+  },
+  {
+    "id": "linux_w4_expert_085",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "advanced",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "POSIX"
+    ],
+    "question": "Which POSIX character classes are valid?",
+    "options": [
+      "[[:alpha:]]",
+      "[[:digit:]]",
+      "[[:alnum:]]",
+      "[[:python:]]"
+    ],
+    "correct_answers": [
+      "[[:alpha:]]",
+      "[[:digit:]]",
+      "[[:alnum:]]"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_086",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "matching",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "regex"
+    ],
+    "question": "Which strings match '[0-9]{3}'?",
+    "options": [
+      "123",
+      "456",
+      "12",
+      "abc"
+    ],
+    "correct_answers": [
+      "123",
+      "456"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_087",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "capturing",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "backreference"
+    ],
+    "question": "Backreferences can be used to:",
+    "options": [
+      "Match repeated text",
+      "Reuse captured groups",
+      "Detect duplicate words",
+      "Sort files"
+    ],
+    "correct_answers": [
+      "Match repeated text",
+      "Reuse captured groups",
+      "Detect duplicate words"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_088",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "options",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "grep"
+    ],
+    "question": "Which commands use extended regular expressions?",
+    "options": [
+      "grep -E",
+      "egrep",
+      "grep",
+      "cat"
+    ],
+    "correct_answers": [
+      "grep -E",
+      "egrep"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_089",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "types",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "POSIX"
+    ],
+    "question": "Which character classes represent letters?",
+    "options": [
+      "[[:alpha:]]",
+      "[[:upper:]]",
+      "[[:lower:]]",
+      "[[:digit:]]"
+    ],
+    "correct_answers": [
+      "[[:alpha:]]",
+      "[[:upper:]]",
+      "[[:lower:]]"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_090",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "operators",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "operators"
+    ],
+    "question": "Which operators may match zero occurrences?",
+    "options": [
+      "*",
+      "?",
+      "{0,3}",
+      "+"
+    ],
+    "correct_answers": [
+      "*",
+      "?",
+      "{0,3}"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_091",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "ascii",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "ascii"
+    ],
+    "question": "How many decimal digits are matched by [0-9]?",
+    "correct_answer": "10"
+  },
+  {
+    "id": "linux_w4_expert_092",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "alphabet",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "alphabet"
+    ],
+    "question": "How many lowercase English letters are matched by [a-z]?",
+    "correct_answer": "26"
+  },
+  {
+    "id": "linux_w4_expert_093",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "alphabet",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "alphabet"
+    ],
+    "question": "How many uppercase English letters are matched by [A-Z]?",
+    "correct_answer": "26"
+  },
+  {
+    "id": "linux_w4_expert_094",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "alnum",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "alnum"
+    ],
+    "question": "How many decimal digits are included in [[:alnum:]]?",
+    "correct_answer": "10"
+  },
+  {
+    "id": "linux_w4_expert_095",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "limits",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "backreference"
+    ],
+    "question": "What is the highest numbered backreference discussed in the syllabus?",
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_w4_expert_096",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "grep",
+    "subtopic": "email-pattern",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "grep",
+      "regex"
+    ],
+    "question": "Match lines containing a Gmail address ending with @gmail.com.",
+    "accepted_answers": [
+      "grep -E '[A-Za-z0-9._%+-]+@gmail\\.com' file.txt",
+      "egrep '[A-Za-z0-9._%+-]+@gmail\\.com' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_097",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "phone-number",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "regex",
+      "digits"
+    ],
+    "question": "Match lines containing exactly 10 consecutive digits.",
+    "accepted_answers": [
+      "grep -E '[0-9]{10}' file.txt",
+      "egrep '[0-9]{10}' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_098",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "character-classes",
+    "subtopic": "alphanumeric",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "alnum"
+    ],
+    "question": "Display all lines containing at least one alphanumeric character.",
+    "accepted_answers": [
+      "grep '[[:alnum:]]' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_099",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "regex",
+    "subtopic": "line-validation",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "anchors"
+    ],
+    "question": "Match lines that contain only digits from start to end.",
+    "accepted_answers": [
+      "grep -E '^[0-9]+$' file.txt",
+      "egrep '^[0-9]+$' file.txt"
+    ]
+  },
+  {
+    "id": "linux_w4_expert_100",
+    "week": 4,
+    "subject": "Linux System Commands",
+    "topic": "backreferences",
+    "subtopic": "duplicate-word",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "backreference",
+      "duplicate"
+    ],
+    "question": "Match lines containing the same word repeated twice consecutively.",
+    "accepted_answers": [
+      "grep '\\([A-Za-z][A-Za-z]*\\) \\1' file.txt"
+    ]
+  }
+]

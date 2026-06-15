@@ -1,0 +1,1574 @@
+[
+  {
+    "id": "linux_w1_mcq_001",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "terminal",
+      "navigation",
+      "pwd"
+    ],
+    "question": "Which command displays the current working directory?",
+    "options": [
+      "ls",
+      "pwd",
+      "cd",
+      "ps"
+    ],
+    "correct_answer": "pwd",
+    "explanation": "pwd stands for Print Working Directory."
+  },
+  {
+    "id": "linux_w1_mcq_002",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "terminal",
+      "listing",
+      "ls"
+    ],
+    "question": "Which command lists files and directories?",
+    "options": [
+      "pwd",
+      "ls",
+      "cd",
+      "man"
+    ],
+    "correct_answer": "ls",
+    "explanation": "ls is used to list directory contents."
+  },
+  {
+    "id": "linux_w1_mcq_003",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "ls",
+      "hidden-files"
+    ],
+    "question": "Which option displays hidden files using ls?",
+    "options": [
+      "-h",
+      "-l",
+      "-a",
+      "-r"
+    ],
+    "correct_answer": "-a",
+    "explanation": "ls -a displays all files including hidden files."
+  },
+  {
+    "id": "linux_w1_mcq_004",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "filesystem",
+      "root"
+    ],
+    "question": "What is the root directory in Linux?",
+    "options": [
+      "/",
+      "~",
+      ".",
+      ".."
+    ],
+    "correct_answer": "/",
+    "explanation": "The root directory is represented by /."
+  },
+  {
+    "id": "linux_w1_mcq_005",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "filesystem",
+      "navigation"
+    ],
+    "question": "What does '.' represent?",
+    "options": [
+      "Root directory",
+      "Current directory",
+      "Parent directory",
+      "Home directory"
+    ],
+    "correct_answer": "Current directory"
+  },
+  {
+    "id": "linux_w1_mcq_006",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "filesystem",
+      "navigation"
+    ],
+    "question": "What does '..' represent?",
+    "options": [
+      "Current directory",
+      "Parent directory",
+      "Home directory",
+      "Root directory"
+    ],
+    "correct_answer": "Parent directory"
+  },
+  {
+    "id": "linux_w1_mcq_007",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "manual",
+      "man"
+    ],
+    "question": "Which command opens the manual page for ls?",
+    "options": [
+      "help ls",
+      "info ls",
+      "man ls",
+      "which ls"
+    ],
+    "correct_answer": "man ls"
+  },
+  {
+    "id": "linux_w1_mcq_008",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem",
+      "fhs"
+    ],
+    "question": "Which directory typically contains user home directories?",
+    "options": [
+      "/usr",
+      "/etc",
+      "/home",
+      "/var"
+    ],
+    "correct_answer": "/home"
+  },
+  {
+    "id": "linux_w1_mcq_009",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem",
+      "etc"
+    ],
+    "question": "Which directory stores system configuration files?",
+    "options": [
+      "/tmp",
+      "/etc",
+      "/usr",
+      "/boot"
+    ],
+    "correct_answer": "/etc"
+  },
+  {
+    "id": "linux_w1_mcq_010",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem",
+      "tmp"
+    ],
+    "question": "Temporary files are usually stored in:",
+    "options": [
+      "/usr",
+      "/home",
+      "/tmp",
+      "/var/log"
+    ],
+    "correct_answer": "/tmp"
+  },
+  {
+    "id": "linux_w1_mcq_011",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "commands",
+      "file"
+    ],
+    "question": "Which command identifies the type of a file?",
+    "options": [
+      "type",
+      "which",
+      "file",
+      "stat"
+    ],
+    "correct_answer": "file"
+  },
+  {
+    "id": "linux_w1_mcq_012",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "permissions",
+      "ls-l"
+    ],
+    "question": "What does 'd' indicate in ls -l output?",
+    "options": [
+      "Device file",
+      "Directory",
+      "Deleted file",
+      "Data file"
+    ],
+    "correct_answer": "Directory"
+  },
+  {
+    "id": "linux_w1_mcq_013",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the numeric value of rwx?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correct_answer": "7"
+  },
+  {
+    "id": "linux_w1_mcq_014",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What permission is represented by 755?",
+    "options": [
+      "rwxr-xr-x",
+      "rwxrwxrwx",
+      "rw-r--r--",
+      "rwx------"
+    ],
+    "correct_answer": "rwxr-xr-x"
+  },
+  {
+    "id": "linux_w1_mcq_015",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "commands",
+      "mkdir"
+    ],
+    "question": "Which command creates a directory?",
+    "options": [
+      "touch",
+      "mkdir",
+      "cp",
+      "mv"
+    ],
+    "correct_answer": "mkdir"
+  },
+  {
+    "id": "linux_w1_mcq_016",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "commands",
+      "cp"
+    ],
+    "question": "Which command copies a file?",
+    "options": [
+      "mv",
+      "cp",
+      "rm",
+      "mkdir"
+    ],
+    "correct_answer": "cp"
+  },
+  {
+    "id": "linux_w1_mcq_017",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "commands",
+      "mv"
+    ],
+    "question": "Which command renames a file?",
+    "options": [
+      "touch",
+      "mv",
+      "cp",
+      "wc"
+    ],
+    "correct_answer": "mv"
+  },
+  {
+    "id": "linux_w1_mcq_018",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "commands",
+      "rm"
+    ],
+    "question": "Which command removes a file?",
+    "options": [
+      "rm",
+      "mv",
+      "touch",
+      "mkdir"
+    ],
+    "correct_answer": "rm"
+  },
+  {
+    "id": "linux_w1_mcq_019",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "links",
+      "hard-links"
+    ],
+    "question": "A hard link points to:",
+    "options": [
+      "Another file name",
+      "The same inode",
+      "A URL",
+      "The root directory"
+    ],
+    "correct_answer": "The same inode"
+  },
+  {
+    "id": "linux_w1_mcq_020",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "links",
+      "symbolic-links"
+    ],
+    "question": "A symbolic link points to:",
+    "options": [
+      "A file path",
+      "An inode directly",
+      "A block device",
+      "A partition"
+    ],
+    "correct_answer": "A file path"
+  },
+  {
+    "id": "linux_w1_mcq_021",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "redirection"
+    ],
+    "question": "Which operator redirects output and overwrites a file?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "|"
+    ],
+    "correct_answer": ">"
+  },
+  {
+    "id": "linux_w1_mcq_022",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "redirection"
+    ],
+    "question": "Which operator appends output to a file?",
+    "options": [
+      ">>",
+      ">",
+      "<",
+      "|"
+    ],
+    "correct_answer": ">>"
+  },
+  {
+    "id": "linux_w1_mcq_023",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "permissions",
+      "directory"
+    ],
+    "question": "Which permission allows entering a directory?",
+    "options": [
+      "Read",
+      "Write",
+      "Execute",
+      "Delete"
+    ],
+    "correct_answer": "Execute"
+  },
+  {
+    "id": "linux_w1_mcq_024",
+    "type": "mcq",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem",
+      "var-log"
+    ],
+    "question": "System log files are commonly stored in:",
+    "options": [
+      "/tmp",
+      "/var/log",
+      "/usr/log",
+      "/boot"
+    ],
+    "correct_answer": "/var/log"
+  },
+  {
+    "id": "linux_w1_mcq_025",
+    "type": "mcq",
+    "difficulty": "easy",
+    "tags": [
+      "terminal"
+    ],
+    "question": "Which command clears the terminal screen?",
+    "options": [
+      "clear",
+      "reset",
+      "erase",
+      "cls"
+    ],
+    "correct_answer": "clear"
+  },
+  {
+    "id": "linux_w1_hard_001",
+    "type": "mcq",
+    "difficulty": "hard",
+    "tags": [
+      "permissions",
+      "directory-permissions"
+    ],
+    "question": "A directory has permission rw-. Which operation is definitely NOT possible?",
+    "options": [
+      "Listing directory contents",
+      "Creating a file inside it",
+      "Changing into the directory using cd",
+      "Viewing filenames"
+    ],
+    "correct_answer": "Changing into the directory using cd",
+    "explanation": "cd requires execute permission on the directory."
+  },
+  {
+    "id": "linux_w1_hard_002",
+    "type": "mcq",
+    "difficulty": "hard",
+    "tags": [
+      "permissions",
+      "filesystem"
+    ],
+    "question": "To access /home/user/docs/report.txt, execute permission is required on how many parent directories?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "All parent directories in the path"
+    ],
+    "correct_answer": "All parent directories in the path"
+  },
+  {
+    "id": "linux_w1_hard_003",
+    "type": "mcq",
+    "difficulty": "hard",
+    "tags": [
+      "inode",
+      "hard-links"
+    ],
+    "question": "Two filenames point to the same inode. What type of relationship exists?",
+    "options": [
+      "Symbolic links",
+      "Hard links",
+      "Directory links",
+      "Mounted filesystems"
+    ],
+    "correct_answer": "Hard links"
+  },
+  {
+    "id": "linux_w1_hard_004",
+    "type": "mcq",
+    "difficulty": "hard",
+    "tags": [
+      "symbolic-links",
+      "inode"
+    ],
+    "question": "If the original file is deleted, which link becomes broken?",
+    "options": [
+      "Hard link",
+      "Symbolic link",
+      "Both",
+      "Neither"
+    ],
+    "correct_answer": "Symbolic link"
+  },
+  {
+    "id": "linux_w1_hard_005",
+    "type": "mcq",
+    "difficulty": "hard",
+    "tags": [
+      "filesystem",
+      "root"
+    ],
+    "question": "Which statement about '/' is true?",
+    "options": [
+      "Its parent is ..",
+      "It has no parent",
+      "It is its own parent",
+      "It is owned by /home"
+    ],
+    "correct_answer": "It is its own parent"
+  },
+  {
+    "id": "linux_w1_hard_017",
+    "type": "mcq",
+    "difficulty": "hard",
+    "tags": [
+      "man-pages"
+    ],
+    "question": "Which man section contains kernel routines?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_w1_hard_018",
+    "type": "mcq",
+    "difficulty": "hard",
+    "tags": [
+      "filesystem",
+      "usr"
+    ],
+    "question": "Which directory generally contains user command binaries?",
+    "options": [
+      "/usr/bin",
+      "/usr/src",
+      "/usr/include",
+      "/var/bin"
+    ],
+    "correct_answer": "/usr/bin"
+  },
+  {
+    "id": "linux_w1_ms_001",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "tags": [
+      "terminal",
+      "basic-commands"
+    ],
+    "question": "Which of the following are basic Linux commands?",
+    "options": [
+      "pwd",
+      "ls",
+      "mkdir",
+      "SELECT"
+    ],
+    "correct_answers": [
+      "pwd",
+      "ls",
+      "mkdir"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_002",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "tags": [
+      "filesystem",
+      "navigation"
+    ],
+    "question": "Which symbols are used for filesystem navigation?",
+    "options": [
+      ".",
+      "..",
+      "/",
+      "~"
+    ],
+    "correct_answers": [
+      ".",
+      "..",
+      "/"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_003",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem",
+      "fhs"
+    ],
+    "question": "Which directories are part of the Linux root filesystem hierarchy?",
+    "options": [
+      "/etc",
+      "/home",
+      "/var",
+      "C:\\"
+    ],
+    "correct_answers": [
+      "/etc",
+      "/home",
+      "/var"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_004",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "commands",
+      "file-info"
+    ],
+    "question": "Which commands help inspect files?",
+    "options": [
+      "file",
+      "stat",
+      "ls",
+      "mkdir"
+    ],
+    "correct_answers": [
+      "file",
+      "stat",
+      "ls"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_005",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "tags": [
+      "file-operations"
+    ],
+    "question": "Which commands can create something new?",
+    "options": [
+      "touch",
+      "mkdir",
+      "cp",
+      "rm"
+    ],
+    "correct_answers": [
+      "touch",
+      "mkdir",
+      "cp"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_006",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "permissions"
+    ],
+    "question": "Which are valid Linux permissions?",
+    "options": [
+      "read",
+      "write",
+      "execute",
+      "delete"
+    ],
+    "correct_answers": [
+      "read",
+      "write",
+      "execute"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_007",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "permissions",
+      "octal"
+    ],
+    "question": "Which octal values represent valid permission digits?",
+    "options": [
+      "0",
+      "3",
+      "7",
+      "9"
+    ],
+    "correct_answers": [
+      "0",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_008",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "file-types"
+    ],
+    "question": "Which are valid Linux file types?",
+    "options": [
+      "Directory",
+      "Regular File",
+      "Socket",
+      "Worksheet"
+    ],
+    "correct_answers": [
+      "Directory",
+      "Regular File",
+      "Socket"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_009",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "commands",
+      "documentation"
+    ],
+    "question": "Which commands help learn about other commands?",
+    "options": [
+      "man",
+      "whatis",
+      "apropos",
+      "mkdir"
+    ],
+    "correct_answers": [
+      "man",
+      "whatis",
+      "apropos"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_010",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "links"
+    ],
+    "question": "Which statements about hard links are true?",
+    "options": [
+      "Share same inode",
+      "Remain valid if original filename deleted",
+      "Point to URL",
+      "Store permissions separately"
+    ],
+    "correct_answers": [
+      "Share same inode",
+      "Remain valid if original filename deleted"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_011",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "redirection"
+    ],
+    "question": "Which operators are used for output redirection?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "|"
+    ],
+    "correct_answers": [
+      ">",
+      ">>"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_012",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "tags": [
+      "file-reading"
+    ],
+    "question": "Which commands display file contents?",
+    "options": [
+      "cat",
+      "head",
+      "tail",
+      "mkdir"
+    ],
+    "correct_answers": [
+      "cat",
+      "head",
+      "tail"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_013",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem",
+      "usr"
+    ],
+    "question": "Which directories belong under /usr?",
+    "options": [
+      "/usr/bin",
+      "/usr/lib",
+      "/usr/share",
+      "/usr/windows"
+    ],
+    "correct_answers": [
+      "/usr/bin",
+      "/usr/lib",
+      "/usr/share"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_014",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem",
+      "var"
+    ],
+    "question": "Which directories are part of /var hierarchy?",
+    "options": [
+      "/var/log",
+      "/var/cache",
+      "/var/tmp",
+      "/var/system32"
+    ],
+    "correct_answers": [
+      "/var/log",
+      "/var/cache",
+      "/var/tmp"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_015",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "tags": [
+      "commands"
+    ],
+    "question": "Which commands can modify files?",
+    "options": [
+      "touch",
+      "cp",
+      "mv",
+      "pwd"
+    ],
+    "correct_answers": [
+      "touch",
+      "cp",
+      "mv"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_016",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "directory-permissions"
+    ],
+    "question": "Directory read permission allows:",
+    "options": [
+      "List directory contents",
+      "Execute programs",
+      "View filenames",
+      "Delete directory"
+    ],
+    "correct_answers": [
+      "List directory contents",
+      "View filenames"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_017",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "inode"
+    ],
+    "question": "An inode stores:",
+    "options": [
+      "Permissions",
+      "File size",
+      "File metadata",
+      "File contents"
+    ],
+    "correct_answers": [
+      "Permissions",
+      "File size",
+      "File metadata"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_018",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "tags": [
+      "ls"
+    ],
+    "question": "Which are valid ls options discussed in Week 1?",
+    "options": [
+      "-a",
+      "-l",
+      "-s",
+      "-python"
+    ],
+    "correct_answers": [
+      "-a",
+      "-l",
+      "-s"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_019",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem"
+    ],
+    "question": "Which are true about '/'?",
+    "options": [
+      "Root directory",
+      "Parent of itself",
+      "Filesystem delimiter",
+      "Home directory"
+    ],
+    "correct_answers": [
+      "Root directory",
+      "Parent of itself",
+      "Filesystem delimiter"
+    ]
+  },
+  {
+    "id": "linux_w1_ms_020",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "tags": [
+      "permissions"
+    ],
+    "question": "To access a file, which permissions may be required on parent directories?",
+    "options": [
+      "Execute",
+      "Read",
+      "Write",
+      "All parent directories need execute"
+    ],
+    "correct_answers": [
+      "Execute",
+      "All parent directories need execute"
+    ]
+  },
+  {
+    "id": "linux_w1_hard_009",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "tags": [
+      "permissions",
+      "directory-permissions"
+    ],
+    "question": "Which actions require execute permission on a directory?",
+    "options": [
+      "Entering the directory",
+      "Accessing a file inside it",
+      "Traversing the path",
+      "Viewing file contents"
+    ],
+    "correct_answers": [
+      "Entering the directory",
+      "Accessing a file inside it",
+      "Traversing the path"
+    ]
+  },
+  {
+    "id": "linux_w1_hard_010",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "tags": [
+      "inode",
+      "metadata"
+    ],
+    "question": "Which information is typically stored in an inode?",
+    "options": [
+      "Permissions",
+      "File size",
+      "Ownership",
+      "Actual file contents"
+    ],
+    "correct_answers": [
+      "Permissions",
+      "File size",
+      "Ownership"
+    ]
+  },
+  {
+    "id": "linux_w1_hard_019",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "tags": [
+      "file-types"
+    ],
+    "question": "Which are valid Linux file types shown by ls -l?",
+    "options": [
+      "Directory",
+      "Regular file",
+      "Socket",
+      "Worksheet"
+    ],
+    "correct_answers": [
+      "Directory",
+      "Regular file",
+      "Socket"
+    ]
+  },
+  {
+    "id": "linux_w1_nat_001",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions",
+      "octal"
+    ],
+    "question": "What is the octal representation of rwxrwxrwx?",
+    "correct_answer": "777",
+    "explanation": "rwx=7 for owner, group, and others."
+  },
+  {
+    "id": "linux_w1_nat_002",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the octal representation of rwxr-xr-x?",
+    "correct_answer": "755"
+  },
+  {
+    "id": "linux_w1_nat_003",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the octal value of rw-r--r--?",
+    "correct_answer": "644"
+  },
+  {
+    "id": "linux_w1_nat_004",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "How many permission groups exist in a Linux permission string?",
+    "correct_answer": "3"
+  },
+  {
+    "id": "linux_w1_nat_005",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "How many permission bits are present in rwxrwxrwx?",
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_w1_nat_006",
+    "type": "nat",
+    "difficulty": "medium",
+    "tags": [
+      "man-pages"
+    ],
+    "question": "Which man page section contains executable programs and shell commands?",
+    "correct_answer": "1"
+  },
+  {
+    "id": "linux_w1_nat_007",
+    "type": "nat",
+    "difficulty": "medium",
+    "tags": [
+      "man-pages"
+    ],
+    "question": "Which man page section contains system administration commands?",
+    "correct_answer": "8"
+  },
+  {
+    "id": "linux_w1_nat_008",
+    "type": "nat",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem"
+    ],
+    "question": "How many slashes are present in the absolute path '/home/student/docs'?",
+    "correct_answer": "3"
+  },
+  {
+    "id": "linux_w1_nat_009",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the numeric value of rwx?",
+    "correct_answer": "7"
+  },
+  {
+    "id": "linux_w1_nat_010",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the numeric value of r-x?",
+    "correct_answer": "5"
+  },
+  {
+    "id": "linux_w1_nat_011",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the numeric value of rw-?",
+    "correct_answer": "6"
+  },
+  {
+    "id": "linux_w1_nat_012",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the numeric value of r--?",
+    "correct_answer": "4"
+  },
+  {
+    "id": "linux_w1_nat_013",
+    "type": "nat",
+    "difficulty": "medium",
+    "tags": [
+      "filesystem"
+    ],
+    "question": "How many dots are present in '..'?",
+    "correct_answer": "2"
+  },
+  {
+    "id": "linux_w1_nat_014",
+    "type": "nat",
+    "difficulty": "medium",
+    "tags": [
+      "inode"
+    ],
+    "question": "How many inode numbers do two hard links to the same file share?",
+    "correct_answer": "1"
+  },
+  {
+    "id": "linux_w1_nat_015",
+    "type": "nat",
+    "difficulty": "easy",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the octal value of --------- ?",
+    "correct_answer": "000"
+  },
+  {
+    "id": "linux_w1_nat_016",
+    "type": "nat",
+    "difficulty": "medium",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the octal value of r-xr-xr-x?",
+    "correct_answer": "555"
+  },
+  {
+    "id": "linux_w1_nat_017",
+    "type": "nat",
+    "difficulty": "medium",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the octal value of rw-------?",
+    "correct_answer": "600"
+  },
+  {
+    "id": "linux_w1_nat_018",
+    "type": "nat",
+    "difficulty": "medium",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the octal value of rwxr-----?",
+    "correct_answer": "740"
+  },
+  {
+    "id": "linux_w1_nat_019",
+    "type": "nat",
+    "difficulty": "hard",
+    "tags": [
+      "permissions"
+    ],
+    "question": "Convert binary permission 101 101 100 into octal.",
+    "correct_answer": "554"
+  },
+  {
+    "id": "linux_w1_nat_020",
+    "type": "nat",
+    "difficulty": "hard",
+    "tags": [
+      "permissions"
+    ],
+    "question": "Convert binary permission 111 110 100 into octal.",
+    "correct_answer": "764"
+  },
+  {
+    "id": "linux_w1_hard_006",
+    "type": "nat",
+    "difficulty": "hard",
+    "tags": [
+      "permissions"
+    ],
+    "question": "Convert rwxr--rw- to octal format.",
+    "correct_answer": "746"
+  },
+  {
+    "id": "linux_w1_hard_007",
+    "type": "nat",
+    "difficulty": "hard",
+    "tags": [
+      "permissions"
+    ],
+    "question": "Convert binary permissions 101 110 011 into octal.",
+    "correct_answer": "563"
+  },
+  {
+    "id": "linux_w1_hard_008",
+    "type": "nat",
+    "difficulty": "hard",
+    "tags": [
+      "permissions"
+    ],
+    "question": "How many execute permission bits are set in rwxr-x--x ?",
+    "correct_answer": "3"
+  },
+  {
+    "id": "linux_w1_hard_020",
+    "type": "nat",
+    "difficulty": "hard",
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the octal representation of r-xrwxr-- ?",
+    "correct_answer": "574"
+  },
+  {
+    "id": "linux_w1_code_001",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "pwd",
+      "navigation"
+    ],
+    "question": "Display the current working directory.",
+    "accepted_answers": [
+      "pwd"
+    ],
+    "regex": "^pwd$",
+    "explanation": "pwd prints the current working directory."
+  },
+  {
+    "id": "linux_w1_code_002",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "ls",
+      "listing"
+    ],
+    "question": "List all files and directories in the current directory.",
+    "accepted_answers": [
+      "ls"
+    ],
+    "regex": "^ls$"
+  },
+  {
+    "id": "linux_w1_code_003",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "ls",
+      "hidden-files"
+    ],
+    "question": "List all files including hidden files.",
+    "accepted_answers": [
+      "ls -a",
+      "ls -la"
+    ],
+    "regex": "^ls\\s+(-a|-la|-al)$"
+  },
+  {
+    "id": "linux_w1_code_004",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "mkdir"
+    ],
+    "question": "Create a directory named project.",
+    "accepted_answers": [
+      "mkdir project"
+    ],
+    "regex": "^mkdir\\s+project$"
+  },
+  {
+    "id": "linux_w1_code_005",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "touch"
+    ],
+    "question": "Create an empty file named report.txt.",
+    "accepted_answers": [
+      "touch report.txt"
+    ],
+    "regex": "^touch\\s+report\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_006",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "cat"
+    ],
+    "question": "Display the contents of report.txt.",
+    "accepted_answers": [
+      "cat report.txt"
+    ],
+    "regex": "^cat\\s+report\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_007",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "cp"
+    ],
+    "question": "Create a copy of report.txt named backup.txt.",
+    "accepted_answers": [
+      "cp report.txt backup.txt"
+    ],
+    "regex": "^cp\\s+report\\.txt\\s+backup\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_008",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "mv"
+    ],
+    "question": "Rename old.txt to new.txt.",
+    "accepted_answers": [
+      "mv old.txt new.txt"
+    ],
+    "regex": "^mv\\s+old\\.txt\\s+new\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_009",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "rm"
+    ],
+    "question": "Delete a file named temp.txt.",
+    "accepted_answers": [
+      "rm temp.txt"
+    ],
+    "regex": "^rm\\s+temp\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_010",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "man"
+    ],
+    "question": "Open the manual page for ls.",
+    "accepted_answers": [
+      "man ls"
+    ],
+    "regex": "^man\\s+ls$"
+  },
+  {
+    "id": "linux_w1_code_011",
+    "type": "coding",
+    "difficulty": "easy",
+    "tags": [
+      "file"
+    ],
+    "question": "Determine the type of notes.txt.",
+    "accepted_answers": [
+      "file notes.txt"
+    ],
+    "regex": "^file\\s+notes\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_012",
+    "type": "coding",
+    "difficulty": "medium",
+    "tags": [
+      "head"
+    ],
+    "question": "Display the first 10 lines of log.txt.",
+    "accepted_answers": [
+      "head log.txt",
+      "head -n 10 log.txt"
+    ],
+    "regex": "^head(\\s+-n\\s+10)?\\s+log\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_013",
+    "type": "coding",
+    "difficulty": "medium",
+    "tags": [
+      "tail"
+    ],
+    "question": "Display the last 10 lines of log.txt.",
+    "accepted_answers": [
+      "tail log.txt",
+      "tail -n 10 log.txt"
+    ],
+    "regex": "^tail(\\s+-n\\s+10)?\\s+log\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_014",
+    "type": "coding",
+    "difficulty": "medium",
+    "tags": [
+      "wc"
+    ],
+    "question": "Count the number of lines in report.txt.",
+    "accepted_answers": [
+      "wc -l report.txt"
+    ],
+    "regex": "^wc\\s+-l\\s+report\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_015",
+    "type": "coding",
+    "difficulty": "medium",
+    "tags": [
+      "less"
+    ],
+    "question": "Open notes.txt using less.",
+    "accepted_answers": [
+      "less notes.txt"
+    ],
+    "regex": "^less\\s+notes\\.txt$"
+  },
+  {
+    "id": "linux_w1_code_016",
+    "type": "coding",
+    "difficulty": "medium",
+    "tags": [
+      "which"
+    ],
+    "question": "Find the location of the ls command.",
+    "accepted_answers": [
+      "which ls"
+    ],
+    "regex": "^which\\s+ls$"
+  },
+  {
+    "id": "linux_w1_code_017",
+    "type": "coding",
+    "difficulty": "medium",
+    "tags": [
+      "whatis"
+    ],
+    "question": "Display a short description of ls.",
+    "accepted_answers": [
+      "whatis ls"
+    ],
+    "regex": "^whatis\\s+ls$"
+  },
+  {
+    "id": "linux_w1_code_018",
+    "type": "coding",
+    "difficulty": "medium",
+    "tags": [
+      "apropos"
+    ],
+    "question": "Search manual page descriptions related to files.",
+    "accepted_answers": [
+      "apropos file"
+    ],
+    "regex": "^apropos\\s+file$"
+  },
+  {
+    "id": "linux_w1_hard_011",
+    "type": "coding",
+    "difficulty": "hard",
+    "tags": [
+      "redirection"
+    ],
+    "question": "Write a command to overwrite file.txt with the text Hello World.",
+    "accepted_answers": [
+      "echo \"Hello World\" > file.txt",
+      "echo Hello World > file.txt"
+    ]
+  },
+  {
+    "id": "linux_w1_hard_012",
+    "type": "coding",
+    "difficulty": "hard",
+    "tags": [
+      "redirection"
+    ],
+    "question": "Append the text Linux to file.txt.",
+    "accepted_answers": [
+      "echo Linux >> file.txt"
+    ]
+  },
+  {
+    "id": "linux_w1_hard_013",
+    "type": "coding",
+    "difficulty": "hard",
+    "tags": [
+      "ls",
+      "inode"
+    ],
+    "question": "Display inode numbers of all files in the current directory.",
+    "accepted_answers": [
+      "ls -i"
+    ]
+  },
+  {
+    "id": "linux_w1_hard_014",
+    "type": "coding",
+    "difficulty": "hard",
+    "tags": [
+      "ls",
+      "permissions"
+    ],
+    "question": "Display detailed file information including permissions.",
+    "accepted_answers": [
+      "ls -l"
+    ]
+  },
+  {
+    "id": "linux_w1_hard_015",
+    "type": "coding",
+    "difficulty": "hard",
+    "tags": [
+      "chmod",
+      "permissions"
+    ],
+    "question": "Give rwxr-xr-x permissions to script.sh.",
+    "accepted_answers": [
+      "chmod 755 script.sh"
+    ]
+  },
+  {
+    "id": "linux_w1_hard_016",
+    "type": "coding",
+    "difficulty": "hard",
+    "tags": [
+      "file-size",
+      "du"
+    ],
+    "question": "Display disk usage of the current directory.",
+    "accepted_answers": [
+      "du .",
+      "du"
+    ]
+  }
+]

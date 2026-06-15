@@ -1,0 +1,1983 @@
+[
+  {
+    "id": "linux_w3_easy_001",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "file-descriptors",
+    "subtopic": "stdout",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "stdout",
+      "fd"
+    ],
+    "question": "Which file descriptor number represents stdout?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": "1",
+    "explanation": "stdout corresponds to file descriptor 1."
+  },
+  {
+    "id": "linux_w3_easy_002",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "file-descriptors",
+    "subtopic": "stdin",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "stdin",
+      "fd"
+    ],
+    "question": "Which file descriptor number represents stdin?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "id": "linux_w3_easy_003",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "file-descriptors",
+    "subtopic": "stderr",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "stderr",
+      "fd"
+    ],
+    "question": "Which file descriptor number represents stderr?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "id": "linux_w3_easy_004",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "semicolon",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "semicolon"
+    ],
+    "question": "Which operator executes commands one after another regardless of success?",
+    "options": [
+      "&&",
+      "||",
+      ";",
+      "|"
+    ],
+    "correct_answer": ";"
+  },
+  {
+    "id": "linux_w3_easy_005",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stdout",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "redirection"
+    ],
+    "question": "Which symbol redirects stdout to a file?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "|"
+    ],
+    "correct_answer": ">"
+  },
+  {
+    "id": "linux_w3_easy_006",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "operators",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "operators"
+    ],
+    "question": "Which are valid command chaining operators?",
+    "options": [
+      ";",
+      "&&",
+      "||",
+      "%%"
+    ],
+    "correct_answers": [
+      ";",
+      "&&",
+      "||"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_007",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "operators",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "redirection"
+    ],
+    "question": "Which are valid redirection operators?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "&>"
+    ],
+    "correct_answers": [
+      ">",
+      ">>",
+      "<"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_008",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "pipes",
+    "subtopic": "basic",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "pipes"
+    ],
+    "question": "Which statements about pipes are true?",
+    "options": [
+      "Use | symbol",
+      "Connect stdout to stdin",
+      "Overwrite files",
+      "Chain commands"
+    ],
+    "correct_answers": [
+      "Use | symbol",
+      "Connect stdout to stdin",
+      "Chain commands"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_009",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt",
+    "subtopic": "package-management",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "apt"
+    ],
+    "question": "Which commands belong to apt package management?",
+    "options": [
+      "apt-get update",
+      "apt-get install",
+      "apt-get remove",
+      "chmod"
+    ],
+    "correct_answers": [
+      "apt-get update",
+      "apt-get install",
+      "apt-get remove"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_010",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dpkg",
+    "subtopic": "package-management",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "dpkg"
+    ],
+    "question": "Which are valid dpkg commands?",
+    "options": [
+      "dpkg -l",
+      "dpkg -L",
+      "dpkg -s",
+      "mkdir"
+    ],
+    "correct_answers": [
+      "dpkg -l",
+      "dpkg -L",
+      "dpkg -s"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_011",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "file-descriptors",
+    "subtopic": "stdin",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "stdin"
+    ],
+    "question": "What is the file descriptor number of stdin?",
+    "correct_answer": "0"
+  },
+  {
+    "id": "linux_w3_easy_012",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "file-descriptors",
+    "subtopic": "stdout",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "stdout"
+    ],
+    "question": "What is the file descriptor number of stdout?",
+    "correct_answer": "1"
+  },
+  {
+    "id": "linux_w3_easy_013",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "file-descriptors",
+    "subtopic": "stderr",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "stderr"
+    ],
+    "question": "What is the file descriptor number of stderr?",
+    "correct_answer": "2"
+  },
+  {
+    "id": "linux_w3_easy_014",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ports",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "ssh"
+    ],
+    "question": "What is the default SSH port?",
+    "correct_answer": "22"
+  },
+  {
+    "id": "linux_w3_easy_015",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stdout",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "redirection"
+    ],
+    "question": "Redirect the output of ls to files.txt.",
+    "accepted_answers": [
+      "ls > files.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_016",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "append",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "append"
+    ],
+    "question": "Append ls output to files.txt.",
+    "accepted_answers": [
+      "ls >> files.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_017",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "pipes",
+    "subtopic": "basic",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "pipes"
+    ],
+    "question": "Count the number of files using a pipe.",
+    "accepted_answers": [
+      "ls | wc -l"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_018",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt",
+    "subtopic": "update",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "apt"
+    ],
+    "question": "Synchronize package overview files.",
+    "accepted_answers": [
+      "apt-get update"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_019",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt",
+    "subtopic": "install",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "apt"
+    ],
+    "question": "Install the package nginx.",
+    "accepted_answers": [
+      "apt-get install nginx"
+    ]
+  },
+  {
+    "id": "linux_w3_easy_020",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dpkg",
+    "subtopic": "list-packages",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "dpkg"
+    ],
+    "question": "List all installed packages matching the pattern bash.",
+    "accepted_answers": [
+      "dpkg -l bash"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_021",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "and-operator",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "&&"
+    ],
+    "question": "When will command2 execute in 'command1 && command2'?",
+    "options": [
+      "Always",
+      "Only if command1 succeeds",
+      "Only if command1 fails",
+      "Never"
+    ],
+    "correct_answer": "Only if command1 succeeds"
+  },
+  {
+    "id": "linux_w3_medium_022",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "or-operator",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "||"
+    ],
+    "question": "When will command2 execute in 'command1 || command2'?",
+    "options": [
+      "Always",
+      "Only if command1 succeeds",
+      "Only if command1 fails",
+      "Never"
+    ],
+    "correct_answer": "Only if command1 fails"
+  },
+  {
+    "id": "linux_w3_medium_023",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stderr",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "stderr"
+    ],
+    "question": "Which operator redirects stderr to a file?",
+    "options": [
+      ">",
+      ">>",
+      "2>",
+      "<"
+    ],
+    "correct_answer": "2>"
+  },
+  {
+    "id": "linux_w3_medium_024",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "combined",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "2>&1"
+    ],
+    "question": "What does '2>&1' mean?",
+    "options": [
+      "Redirect stdin to stdout",
+      "Redirect stderr to stdout",
+      "Redirect stdout to stderr",
+      "Redirect stderr to stdin"
+    ],
+    "correct_answer": "Redirect stderr to stdout"
+  },
+  {
+    "id": "linux_w3_medium_025",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "pipes",
+    "subtopic": "data-flow",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "pipes"
+    ],
+    "question": "Which statements about pipes are correct?",
+    "options": [
+      "Connect stdout to stdin",
+      "Use | symbol",
+      "Can chain multiple commands",
+      "Redirect stderr automatically"
+    ],
+    "correct_answers": [
+      "Connect stdout to stdin",
+      "Use | symbol",
+      "Can chain multiple commands"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_026",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "tee",
+    "subtopic": "output-copy",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "tee"
+    ],
+    "question": "What does tee do?",
+    "options": [
+      "Writes output to a file",
+      "Displays output on screen",
+      "Can do both simultaneously",
+      "Deletes output"
+    ],
+    "correct_answers": [
+      "Writes output to a file",
+      "Displays output on screen",
+      "Can do both simultaneously"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_027",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt-cache",
+    "subtopic": "search",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "apt-cache"
+    ],
+    "question": "Which apt-cache commands are valid?",
+    "options": [
+      "apt-cache search",
+      "apt-cache pkgnames",
+      "apt-cache show",
+      "apt-cache chmod"
+    ],
+    "correct_answers": [
+      "apt-cache search",
+      "apt-cache pkgnames",
+      "apt-cache show"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_028",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt",
+    "subtopic": "maintenance",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "apt"
+    ],
+    "question": "Which apt-get commands are used for cleanup?",
+    "options": [
+      "apt-get clean",
+      "apt-get autoremove",
+      "apt-get remove",
+      "apt-get mkdir"
+    ],
+    "correct_answers": [
+      "apt-get clean",
+      "apt-get autoremove",
+      "apt-get remove"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_029",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "algorithms",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "checksum"
+    ],
+    "question": "Which checksum algorithms were discussed?",
+    "options": [
+      "MD5",
+      "SHA1",
+      "SHA256",
+      "RSA"
+    ],
+    "correct_answers": [
+      "MD5",
+      "SHA1",
+      "SHA256"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_030",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-priority",
+    "subtopic": "classification",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "packages"
+    ],
+    "question": "Which package priorities exist in Debian?",
+    "options": [
+      "required",
+      "important",
+      "standard",
+      "optional"
+    ],
+    "correct_answers": [
+      "required",
+      "important",
+      "standard",
+      "optional"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_031",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "sha256",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "sha256"
+    ],
+    "question": "How many bits are produced by SHA256?",
+    "correct_answer": "256"
+  },
+  {
+    "id": "linux_w3_medium_032",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "sha1",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "sha1"
+    ],
+    "question": "How many bits are produced by SHA1?",
+    "correct_answer": "160"
+  },
+  {
+    "id": "linux_w3_medium_033",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "md5",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "md5"
+    ],
+    "question": "How many bits are produced by MD5?",
+    "correct_answer": "128"
+  },
+  {
+    "id": "linux_w3_medium_034",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt",
+    "subtopic": "sudo",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "sudo"
+    ],
+    "question": "Which file controls sudo permissions? Answer with full path.",
+    "correct_answer": "/etc/sudoers"
+  },
+  {
+    "id": "linux_w3_medium_035",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stderr",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "stderr"
+    ],
+    "question": "Redirect only stderr of a command to errors.txt.",
+    "accepted_answers": [
+      "command 2> errors.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_036",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stdout-stderr",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2>&1"
+    ],
+    "question": "Redirect both stdout and stderr to output.txt.",
+    "accepted_answers": [
+      "command > output.txt 2>&1"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_037",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dev-null",
+    "subtopic": "discard-errors",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "dev-null"
+    ],
+    "question": "Discard all error messages generated by a command.",
+    "accepted_answers": [
+      "command 2> /dev/null"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_038",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "tee",
+    "subtopic": "output-copy",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "tee"
+    ],
+    "question": "Save output of ls to files.txt while still displaying it on screen.",
+    "accepted_answers": [
+      "ls | tee files.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_039",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt-cache",
+    "subtopic": "search",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "apt-cache"
+    ],
+    "question": "Search for packages related to python.",
+    "accepted_answers": [
+      "apt-cache search python"
+    ]
+  },
+  {
+    "id": "linux_w3_medium_040",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dpkg",
+    "subtopic": "status",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "dpkg"
+    ],
+    "question": "Display the status information of the bash package.",
+    "accepted_answers": [
+      "dpkg -s bash"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_041",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "and-operator",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "&&"
+    ],
+    "question": "What will happen if command1 fails in 'command1 && command2'?",
+    "options": [
+      "command2 executes",
+      "command2 does not execute",
+      "Both commands stop",
+      "stderr is redirected"
+    ],
+    "correct_answer": "command2 does not execute"
+  },
+  {
+    "id": "linux_w3_hard_042",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "or-operator",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "||"
+    ],
+    "question": "What will happen if command1 succeeds in 'command1 || command2'?",
+    "options": [
+      "command2 executes",
+      "command2 does not execute",
+      "stdout is redirected",
+      "stderr is redirected"
+    ],
+    "correct_answer": "command2 does not execute"
+  },
+  {
+    "id": "linux_w3_hard_043",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "combined-redirection",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2>&1"
+    ],
+    "question": "In 'command > out.txt 2>&1', where are stderr messages written?",
+    "options": [
+      "Terminal",
+      "out.txt",
+      "/dev/null",
+      "stdin"
+    ],
+    "correct_answer": "out.txt"
+  },
+  {
+    "id": "linux_w3_hard_044",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dev-null",
+    "subtopic": "output-discard",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "dev-null"
+    ],
+    "question": "What is the purpose of /dev/null?",
+    "options": [
+      "Store logs",
+      "Store packages",
+      "Discard data",
+      "Display output"
+    ],
+    "correct_answer": "Discard data"
+  },
+  {
+    "id": "linux_w3_hard_045",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-management",
+    "subtopic": "repositories",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "apt"
+    ],
+    "question": "Which command synchronizes package overview files?",
+    "options": [
+      "apt-get upgrade",
+      "apt-get update",
+      "apt-get clean",
+      "apt-get install"
+    ],
+    "correct_answer": "apt-get update"
+  },
+  {
+    "id": "linux_w3_hard_046",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-management",
+    "subtopic": "cleanup",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "apt"
+    ],
+    "question": "Which commands are used for package cleanup?",
+    "options": [
+      "apt-get clean",
+      "apt-get autoremove",
+      "apt-get purge",
+      "apt-get update"
+    ],
+    "correct_answers": [
+      "apt-get clean",
+      "apt-get autoremove",
+      "apt-get purge"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_047",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dpkg",
+    "subtopic": "package-info",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "dpkg"
+    ],
+    "question": "Which dpkg commands provide package information?",
+    "options": [
+      "dpkg -L",
+      "dpkg -s",
+      "dpkg -S",
+      "dpkg -mkdir"
+    ],
+    "correct_answers": [
+      "dpkg -L",
+      "dpkg -s",
+      "dpkg -S"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_048",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "security",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "md5",
+      "sha1",
+      "sha256"
+    ],
+    "question": "Which checksum algorithms were mentioned in the syllabus?",
+    "options": [
+      "MD5",
+      "SHA1",
+      "SHA256",
+      "AES"
+    ],
+    "correct_answers": [
+      "MD5",
+      "SHA1",
+      "SHA256"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_049",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-priority",
+    "subtopic": "classification",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "packages"
+    ],
+    "question": "Which package priorities exist?",
+    "options": [
+      "required",
+      "important",
+      "standard",
+      "optional"
+    ],
+    "correct_answers": [
+      "required",
+      "important",
+      "standard",
+      "optional"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_050",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-sections",
+    "subtopic": "classification",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "ubuntu-packages"
+    ],
+    "question": "Which are valid Ubuntu package sections?",
+    "options": [
+      "Python",
+      "Java",
+      "Games",
+      "Blockchain"
+    ],
+    "correct_answers": [
+      "Python",
+      "Java",
+      "Games"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_051",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "sha256",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "sha256"
+    ],
+    "question": "How many bits does SHA256 produce?",
+    "correct_answer": "256"
+  },
+  {
+    "id": "linux_w3_hard_052",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "sha1",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "sha1"
+    ],
+    "question": "How many bits does SHA1 produce?",
+    "correct_answer": "160"
+  },
+  {
+    "id": "linux_w3_hard_053",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "md5",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "md5"
+    ],
+    "question": "How many bits does MD5 produce?",
+    "correct_answer": "128"
+  },
+  {
+    "id": "linux_w3_hard_054",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-management",
+    "subtopic": "sudo",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "sudoers"
+    ],
+    "question": "Provide the full path of the sudoers file.",
+    "correct_answer": "/etc/sudoers"
+  },
+  {
+    "id": "linux_w3_hard_055",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stderr",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "stderr"
+    ],
+    "question": "Redirect stderr to errors.txt while leaving stdout unchanged.",
+    "accepted_answers": [
+      "command 2> errors.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_056",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stdout-stderr",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2>&1"
+    ],
+    "question": "Redirect both stdout and stderr to output.txt.",
+    "accepted_answers": [
+      "command > output.txt 2>&1"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_057",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dev-null",
+    "subtopic": "discard-output",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "dev-null"
+    ],
+    "question": "Discard both stdout and stderr generated by a command.",
+    "accepted_answers": [
+      "command > /dev/null 2>&1"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_058",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "tee",
+    "subtopic": "advanced",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "tee"
+    ],
+    "question": "Save output of ls to files.txt and display it on screen.",
+    "accepted_answers": [
+      "ls | tee files.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_059",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt-cache",
+    "subtopic": "package-search",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "apt-cache"
+    ],
+    "question": "Display package information for nginx.",
+    "accepted_answers": [
+      "apt-cache show -a nginx"
+    ]
+  },
+  {
+    "id": "linux_w3_hard_060",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dpkg",
+    "subtopic": "package-files",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "dpkg"
+    ],
+    "question": "List all files installed by the bash package.",
+    "accepted_answers": [
+      "dpkg -L bash"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_061",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "execution-flow",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "&&",
+      "||"
+    ],
+    "question": "Given: false && echo A || echo B. What will be printed?",
+    "options": [
+      "A",
+      "B",
+      "A B",
+      "Nothing"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": "linux_w3_expert_062",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "execution-flow",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "&&"
+    ],
+    "question": "Given: true && echo Linux. What will be printed?",
+    "options": [
+      "Linux",
+      "true",
+      "false",
+      "Nothing"
+    ],
+    "correct_answer": "Linux"
+  },
+  {
+    "id": "linux_w3_expert_063",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stdout",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      ">"
+    ],
+    "question": "What happens if output.txt already exists when using 'ls > output.txt'?",
+    "options": [
+      "Appended",
+      "Overwritten",
+      "Deleted",
+      "Ignored"
+    ],
+    "correct_answer": "Overwritten"
+  },
+  {
+    "id": "linux_w3_expert_064",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "append",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      ">>"
+    ],
+    "question": "What happens if output.txt already exists when using 'ls >> output.txt'?",
+    "options": [
+      "Overwritten",
+      "Appended",
+      "Deleted",
+      "Moved"
+    ],
+    "correct_answer": "Appended"
+  },
+  {
+    "id": "linux_w3_expert_065",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-management",
+    "subtopic": "apt",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "apt"
+    ],
+    "question": "Which commands modify packages on the system?",
+    "options": [
+      "apt-get install",
+      "apt-get remove",
+      "apt-get purge",
+      "apt-cache search"
+    ],
+    "correct_answers": [
+      "apt-get install",
+      "apt-get remove",
+      "apt-get purge"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_066",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-management",
+    "subtopic": "apt-cache",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "apt-cache"
+    ],
+    "question": "Which commands only query package information?",
+    "options": [
+      "apt-cache search",
+      "apt-cache pkgnames",
+      "apt-cache show",
+      "apt-get install"
+    ],
+    "correct_answers": [
+      "apt-cache search",
+      "apt-cache pkgnames",
+      "apt-cache show"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_067",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dpkg",
+    "subtopic": "database",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "dpkg"
+    ],
+    "question": "Which files/directories belong to dpkg database?",
+    "options": [
+      "/var/lib/dpkg/status",
+      "/var/lib/dpkg/available",
+      "/var/lib/dpkg/info",
+      "/etc/passwd"
+    ],
+    "correct_answers": [
+      "/var/lib/dpkg/status",
+      "/var/lib/dpkg/available",
+      "/var/lib/dpkg/info"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_068",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "comparison",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "checksum"
+    ],
+    "question": "Which checksum algorithms were discussed?",
+    "options": [
+      "MD5",
+      "SHA1",
+      "SHA256",
+      "SHA512"
+    ],
+    "correct_answers": [
+      "MD5",
+      "SHA1",
+      "SHA256"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_069",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-priority",
+    "subtopic": "classification",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "package-priority"
+    ],
+    "question": "Which package priorities are considered standard Debian priorities?",
+    "options": [
+      "required",
+      "important",
+      "standard",
+      "optional"
+    ],
+    "correct_answers": [
+      "required",
+      "important",
+      "standard",
+      "optional"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_070",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-sections",
+    "subtopic": "ubuntu",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "ubuntu-packages"
+    ],
+    "question": "Which are valid Ubuntu package sections?",
+    "options": [
+      "Python",
+      "Java",
+      "Network",
+      "Blockchain"
+    ],
+    "correct_answers": [
+      "Python",
+      "Java",
+      "Network"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_071",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "md5",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "md5"
+    ],
+    "question": "Enter the output length of MD5 in bits.",
+    "correct_answer": "128"
+  },
+  {
+    "id": "linux_w3_expert_072",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "sha1",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "sha1"
+    ],
+    "question": "Enter the output length of SHA1 in bits.",
+    "correct_answer": "160"
+  },
+  {
+    "id": "linux_w3_expert_073",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "sha256",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "sha256"
+    ],
+    "question": "Enter the output length of SHA256 in bits.",
+    "correct_answer": "256"
+  },
+  {
+    "id": "linux_w3_expert_074",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "sudo",
+    "subtopic": "configuration",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "sudoers"
+    ],
+    "question": "Provide the full path of the sudoers configuration file.",
+    "correct_answer": "/etc/sudoers"
+  },
+  {
+    "id": "linux_w3_expert_075",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt",
+    "subtopic": "repositories",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 7,
+    "tags": [
+      "apt"
+    ],
+    "question": "Provide the full path of the sources.list file.",
+    "correct_answer": "/etc/apt/sources.list"
+  },
+  {
+    "id": "linux_w3_expert_076",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stdout",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      ">"
+    ],
+    "question": "Save output of ls to files.txt.",
+    "accepted_answers": [
+      "ls > files.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_077",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "append",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      ">>"
+    ],
+    "question": "Append output of ls to files.txt.",
+    "accepted_answers": [
+      "ls >> files.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_078",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "pipes",
+    "subtopic": "counting",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "pipe"
+    ],
+    "question": "Count entries in the current directory using a pipe.",
+    "accepted_answers": [
+      "ls | wc -l"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_079",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "tee",
+    "subtopic": "screen-and-file",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "tee"
+    ],
+    "question": "Display output of ls on screen and save it to files.txt simultaneously.",
+    "accepted_answers": [
+      "ls | tee files.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_080",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dev-null",
+    "subtopic": "discard-errors",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "dev-null"
+    ],
+    "question": "Discard stderr generated by a command.",
+    "accepted_answers": [
+      "command 2> /dev/null"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_081",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "complex-execution",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "&&",
+      "||"
+    ],
+    "question": "What is the output of: true && echo A || echo B ?",
+    "options": [
+      "A",
+      "B",
+      "A B",
+      "Nothing"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": "linux_w3_expert_082",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "command-chaining",
+    "subtopic": "complex-execution",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "&&",
+      "||"
+    ],
+    "question": "What is the output of: false || echo Linux ?",
+    "options": [
+      "false",
+      "Linux",
+      "Error",
+      "Nothing"
+    ],
+    "correct_answer": "Linux"
+  },
+  {
+    "id": "linux_w3_expert_083",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stderr",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "stderr"
+    ],
+    "question": "Which file descriptor is redirected by 2> ?",
+    "options": [
+      "stdin",
+      "stdout",
+      "stderr",
+      "all"
+    ],
+    "correct_answer": "stderr"
+  },
+  {
+    "id": "linux_w3_expert_084",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "stdin",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "stdin"
+    ],
+    "question": "Which operator redirects input from a file?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "|"
+    ],
+    "correct_answer": "<"
+  },
+  {
+    "id": "linux_w3_expert_085",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "pipes",
+    "subtopic": "data-flow",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "pipes"
+    ],
+    "question": "Which commands can commonly appear after a pipe?",
+    "options": [
+      "wc -l",
+      "grep",
+      "sort",
+      "chmod"
+    ],
+    "correct_answers": [
+      "wc -l",
+      "grep",
+      "sort"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_086",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "tee",
+    "subtopic": "usage",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "tee"
+    ],
+    "question": "Which statements about tee are correct?",
+    "options": [
+      "Writes output to a file",
+      "Displays output on terminal",
+      "Can do both simultaneously",
+      "Deletes files"
+    ],
+    "correct_answers": [
+      "Writes output to a file",
+      "Displays output on terminal",
+      "Can do both simultaneously"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_087",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dev-null",
+    "subtopic": "special-files",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "dev-null"
+    ],
+    "question": "Which statements about /dev/null are true?",
+    "options": [
+      "Discards data",
+      "Acts like an empty file",
+      "Stores logs",
+      "Useful for suppressing output"
+    ],
+    "correct_answers": [
+      "Discards data",
+      "Acts like an empty file",
+      "Useful for suppressing output"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_088",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "apt",
+    "subtopic": "package-management",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "apt"
+    ],
+    "question": "Which commands install or upgrade software?",
+    "options": [
+      "apt-get install",
+      "apt-get upgrade",
+      "apt-get update",
+      "apt-get clean"
+    ],
+    "correct_answers": [
+      "apt-get install",
+      "apt-get upgrade"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_089",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "dpkg",
+    "subtopic": "queries",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "dpkg"
+    ],
+    "question": "Which dpkg commands are query-related?",
+    "options": [
+      "dpkg -l",
+      "dpkg -L",
+      "dpkg -s",
+      "dpkg -i"
+    ],
+    "correct_answers": [
+      "dpkg -l",
+      "dpkg -L",
+      "dpkg -s"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_090",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "security",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "checksum"
+    ],
+    "question": "Why are checksums used?",
+    "options": [
+      "Verify file integrity",
+      "Detect corruption",
+      "Compare files",
+      "Increase disk size"
+    ],
+    "correct_answers": [
+      "Verify file integrity",
+      "Detect corruption",
+      "Compare files"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_091",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "comparison",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "sha256"
+    ],
+    "question": "How many hexadecimal characters are produced by SHA256?",
+    "correct_answer": "64"
+  },
+  {
+    "id": "linux_w3_expert_092",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "comparison",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "sha1"
+    ],
+    "question": "How many hexadecimal characters are produced by SHA1?",
+    "correct_answer": "40"
+  },
+  {
+    "id": "linux_w3_expert_093",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "checksums",
+    "subtopic": "comparison",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "md5"
+    ],
+    "question": "How many hexadecimal characters are produced by MD5?",
+    "correct_answer": "32"
+  },
+  {
+    "id": "linux_w3_expert_094",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "file-descriptors",
+    "subtopic": "stdout",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "stdout"
+    ],
+    "question": "Enter the file descriptor number for stdout.",
+    "correct_answer": "1"
+  },
+  {
+    "id": "linux_w3_expert_095",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "file-descriptors",
+    "subtopic": "stderr",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "stderr"
+    ],
+    "question": "Enter the file descriptor number for stderr.",
+    "correct_answer": "2"
+  },
+  {
+    "id": "linux_w3_expert_096",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "advanced",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "stdout",
+      "stderr"
+    ],
+    "question": "Redirect stdout to output.txt and stderr to errors.txt.",
+    "accepted_answers": [
+      "command > output.txt 2> errors.txt"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_097",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "advanced",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "dev-null"
+    ],
+    "question": "Run a command while discarding only stdout.",
+    "accepted_answers": [
+      "command > /dev/null"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_098",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "pipes",
+    "subtopic": "advanced",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "pipe",
+      "grep"
+    ],
+    "question": "List files and show only lines containing '.txt'.",
+    "accepted_answers": [
+      "ls | grep .txt"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_099",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-management",
+    "subtopic": "installation",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "apt"
+    ],
+    "question": "Remove the nginx package completely including configuration files.",
+    "accepted_answers": [
+      "apt-get purge nginx"
+    ]
+  },
+  {
+    "id": "linux_w3_expert_100",
+    "week": 3,
+    "subject": "Linux System Commands",
+    "topic": "package-management",
+    "subtopic": "cleanup",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "apt"
+    ],
+    "question": "Remove packages that were automatically installed and are no longer needed.",
+    "accepted_answers": [
+      "apt-get autoremove"
+    ]
+  }
+]

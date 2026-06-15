@@ -1,0 +1,1979 @@
+[
+  {
+    "id": "linux_w5_easy_001",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "environment-variables",
+    "subtopic": "home",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "HOME"
+    ],
+    "question": "Which shell variable stores the user's home directory?",
+    "options": [
+      "$PWD",
+      "$HOME",
+      "$PATH",
+      "$USER"
+    ],
+    "correct_answer": "$HOME"
+  },
+  {
+    "id": "linux_w5_easy_002",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "environment-variables",
+    "subtopic": "pwd",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "PWD"
+    ],
+    "question": "Which variable stores the current working directory?",
+    "options": [
+      "$HOME",
+      "$PATH",
+      "$PWD",
+      "$HOSTNAME"
+    ],
+    "correct_answer": "$PWD"
+  },
+  {
+    "id": "linux_w5_easy_003",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "pid",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "$$"
+    ],
+    "question": "What does $$ represent?",
+    "options": [
+      "Shell name",
+      "Process ID of shell",
+      "Exit code",
+      "Flags"
+    ],
+    "correct_answer": "Process ID of shell"
+  },
+  {
+    "id": "linux_w5_easy_004",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "exit-code",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "$?"
+    ],
+    "question": "What does $? represent?",
+    "options": [
+      "Current user",
+      "Last command exit code",
+      "PID",
+      "Hostname"
+    ],
+    "correct_answer": "Last command exit code"
+  },
+  {
+    "id": "linux_w5_easy_005",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "creation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "variables"
+    ],
+    "question": "Which is the correct way to create a variable?",
+    "options": [
+      "myvar = hello",
+      "$myvar=hello",
+      "myvar=hello",
+      "var hello"
+    ],
+    "correct_answer": "myvar=hello"
+  },
+  {
+    "id": "linux_w5_easy_006",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "environment-variables",
+    "subtopic": "common-vars",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "environment"
+    ],
+    "question": "Which are common shell variables?",
+    "options": [
+      "$HOME",
+      "$PWD",
+      "$PATH",
+      "$LINUX"
+    ],
+    "correct_answers": [
+      "$HOME",
+      "$PWD",
+      "$PATH"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_007",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "special",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "special"
+    ],
+    "question": "Which are special shell variables?",
+    "options": [
+      "$$",
+      "$?",
+      "$-",
+      "$HOME"
+    ],
+    "correct_answers": [
+      "$$",
+      "$?",
+      "$-"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_008",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "commands",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "process"
+    ],
+    "question": "Which commands are related to process control?",
+    "options": [
+      "jobs",
+      "fg",
+      "kill",
+      "chmod"
+    ],
+    "correct_answers": [
+      "jobs",
+      "fg",
+      "kill"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_009",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "inspection",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "env"
+    ],
+    "question": "Which commands can display variables?",
+    "options": [
+      "env",
+      "printenv",
+      "set",
+      "mkdir"
+    ],
+    "correct_answers": [
+      "env",
+      "printenv",
+      "set"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_010",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "usage",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "echo"
+    ],
+    "question": "Which commands display the value of variable myvar?",
+    "options": [
+      "echo $myvar",
+      "echo ${myvar}",
+      "echo myvar",
+      "echo $$myvar"
+    ],
+    "correct_answers": [
+      "echo $myvar",
+      "echo ${myvar}"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_011",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "exit-codes",
+    "subtopic": "success",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code represents success?",
+    "correct_answer": "0"
+  },
+  {
+    "id": "linux_w5_easy_012",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "exit-codes",
+    "subtopic": "failure",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code represents failure?",
+    "correct_answer": "1"
+  },
+  {
+    "id": "linux_w5_easy_013",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "exit-codes",
+    "subtopic": "command-not-found",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code represents command not found?",
+    "correct_answer": "127"
+  },
+  {
+    "id": "linux_w5_easy_014",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "exit-codes",
+    "subtopic": "ctrl-c",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code is returned when a process is terminated using Ctrl+C?",
+    "correct_answer": "130"
+  },
+  {
+    "id": "linux_w5_easy_015",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "create",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "variables"
+    ],
+    "question": "Create a variable named city with value Chennai.",
+    "accepted_answers": [
+      "city=Chennai"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_016",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "display",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "echo"
+    ],
+    "question": "Display the value of variable city.",
+    "accepted_answers": [
+      "echo $city",
+      "echo ${city}"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_017",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "environment-variables",
+    "subtopic": "home",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "HOME"
+    ],
+    "question": "Display the value of HOME variable.",
+    "accepted_answers": [
+      "echo $HOME"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_018",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "pid",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "$$"
+    ],
+    "question": "Display the process ID of the current shell.",
+    "accepted_answers": [
+      "echo $$"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_019",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "exit-code",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "$?"
+    ],
+    "question": "Display the exit code of the previously executed command.",
+    "accepted_answers": [
+      "echo $?"
+    ]
+  },
+  {
+    "id": "linux_w5_easy_020",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "list",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "env"
+    ],
+    "question": "Display all environment variables.",
+    "accepted_answers": [
+      "env",
+      "printenv"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_021",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "export",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "export"
+    ],
+    "question": "What is the purpose of the export command?",
+    "options": [
+      "Delete a variable",
+      "Make a variable available to child processes",
+      "Print a variable",
+      "Rename a variable"
+    ],
+    "correct_answer": "Make a variable available to child processes"
+  },
+  {
+    "id": "linux_w5_medium_022",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "unset",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "unset"
+    ],
+    "question": "Which command removes a variable completely?",
+    "options": [
+      "delete myvar",
+      "unset myvar",
+      "remove myvar",
+      "clear myvar"
+    ],
+    "correct_answer": "unset myvar"
+  },
+  {
+    "id": "linux_w5_medium_023",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "default-values",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "parameter-expansion"
+    ],
+    "question": "What does ${myvar:-default} do?",
+    "options": [
+      "Deletes myvar",
+      "Uses default if myvar is unset",
+      "Sets myvar permanently",
+      "Exports myvar"
+    ],
+    "correct_answer": "Uses default if myvar is unset"
+  },
+  {
+    "id": "linux_w5_medium_024",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "length",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "string"
+    ],
+    "question": "What does ${#myvar} return?",
+    "options": [
+      "Variable name",
+      "Variable type",
+      "Length of variable value",
+      "Index"
+    ],
+    "correct_answer": "Length of variable value"
+  },
+  {
+    "id": "linux_w5_medium_025",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "indexed-arrays",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "arrays"
+    ],
+    "question": "Which command declares an indexed array?",
+    "options": [
+      "declare -A arr",
+      "declare -a arr",
+      "array arr",
+      "arr[]"
+    ],
+    "correct_answer": "declare -a arr"
+  },
+  {
+    "id": "linux_w5_medium_026",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "parameter-expansion",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "expansion"
+    ],
+    "question": "Which parameter expansions are valid?",
+    "options": [
+      "${myvar:-default}",
+      "${myvar:=default}",
+      "${#myvar}",
+      "${myvar???}"
+    ],
+    "correct_answers": [
+      "${myvar:-default}",
+      "${myvar:=default}",
+      "${#myvar}"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_027",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "indexed-arrays",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "arrays"
+    ],
+    "question": "Which operations are valid on indexed arrays?",
+    "options": [
+      "arr+=(\"value\")",
+      "unset 'arr[2]'",
+      "echo ${arr[@]}",
+      "rm arr[2]"
+    ],
+    "correct_answers": [
+      "arr+=(\"value\")",
+      "unset 'arr[2]'",
+      "echo ${arr[@]}"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_028",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "associative-arrays",
+    "subtopic": "basics",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "hash"
+    ],
+    "question": "Which statements about associative arrays are true?",
+    "options": [
+      "declare -A hash",
+      "Keys can be strings",
+      "hash[\"a\"]=\"value\"",
+      "Only numeric indexes allowed"
+    ],
+    "correct_answers": [
+      "declare -A hash",
+      "Keys can be strings",
+      "hash[\"a\"]=\"value\""
+    ]
+  },
+  {
+    "id": "linux_w5_medium_029",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "background-jobs",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "jobs"
+    ],
+    "question": "Which commands are related to job control?",
+    "options": [
+      "jobs",
+      "fg",
+      "kill",
+      "grep"
+    ],
+    "correct_answers": [
+      "jobs",
+      "fg",
+      "kill"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_030",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variable-types",
+    "subtopic": "declare",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "declare"
+    ],
+    "question": "Which restrictions can be applied using declare?",
+    "options": [
+      "-i",
+      "-l",
+      "-u",
+      "-r"
+    ],
+    "correct_answers": [
+      "-i",
+      "-l",
+      "-u",
+      "-r"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_031",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "exit-codes",
+    "subtopic": "command-cannot-execute",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code represents 'command cannot be executed'?",
+    "correct_answer": "126"
+  },
+  {
+    "id": "linux_w5_medium_032",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "exit-codes",
+    "subtopic": "kill",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "kill"
+    ],
+    "question": "What exit code is returned when a process is killed using kill -9?",
+    "correct_answer": "137"
+  },
+  {
+    "id": "linux_w5_medium_033",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "count",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "arrays"
+    ],
+    "question": "If an array has indexes 0,1,2,3, what does ${#arr[@]} return?",
+    "correct_answer": "4"
+  },
+  {
+    "id": "linux_w5_medium_034",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "string-length",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "string"
+    ],
+    "question": "What is the value of ${#myvar} if myvar='Linux'?",
+    "correct_answer": "5"
+  },
+  {
+    "id": "linux_w5_medium_035",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "export",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "export"
+    ],
+    "question": "Create a variable named city with value Delhi and export it.",
+    "accepted_answers": [
+      "city=Delhi; export city",
+      "export city=Delhi"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_036",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "unset",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "unset"
+    ],
+    "question": "Remove the variable named city.",
+    "accepted_answers": [
+      "unset city"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_037",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "default-values",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "parameter-expansion"
+    ],
+    "question": "Display 'guest' if variable user is not set.",
+    "accepted_answers": [
+      "echo ${user:-guest}"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_038",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "indexed-arrays",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "arrays"
+    ],
+    "question": "Declare an indexed array named arr.",
+    "accepted_answers": [
+      "declare -a arr"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_039",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "associative-arrays",
+    "subtopic": "declaration",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "hash"
+    ],
+    "question": "Declare an associative array named hash.",
+    "accepted_answers": [
+      "declare -A hash"
+    ]
+  },
+  {
+    "id": "linux_w5_medium_040",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "background",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "background"
+    ],
+    "question": "Run sleep 100 in the background.",
+    "accepted_answers": [
+      "sleep 100 &"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_041",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "variable-check",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "variables",
+      "-v"
+    ],
+    "question": "What does [[ -v myvar ]] check?",
+    "options": [
+      "If myvar has a numeric value",
+      "If myvar is set",
+      "If myvar is exported",
+      "If myvar is readonly"
+    ],
+    "correct_answer": "If myvar is set"
+  },
+  {
+    "id": "linux_w5_hard_042",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "default-assignment",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "parameter-expansion"
+    ],
+    "question": "What does ${myvar:=default} do when myvar is unset?",
+    "options": [
+      "Displays default only",
+      "Deletes myvar",
+      "Sets myvar to default and displays it",
+      "Exports myvar"
+    ],
+    "correct_answer": "Sets myvar to default and displays it"
+  },
+  {
+    "id": "linux_w5_hard_043",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "string-slicing",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "slice"
+    ],
+    "question": "If myvar='abcdefghij', what is ${myvar:2:4}?",
+    "options": [
+      "abcd",
+      "cdef",
+      "efgh",
+      "bcde"
+    ],
+    "correct_answer": "cdef"
+  },
+  {
+    "id": "linux_w5_hard_044",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "case-conversion",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "case"
+    ],
+    "question": "What does ${myvar^^} do?",
+    "options": [
+      "Convert first letter to uppercase",
+      "Convert all letters to uppercase",
+      "Convert all letters to lowercase",
+      "Reverse string"
+    ],
+    "correct_answer": "Convert all letters to uppercase"
+  },
+  {
+    "id": "linux_w5_hard_045",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "indexed-arrays",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "arrays"
+    ],
+    "question": "What does ${!arr[@]} return?",
+    "options": [
+      "Array values",
+      "Array indexes",
+      "Array size",
+      "Array type"
+    ],
+    "correct_answer": "Array indexes"
+  },
+  {
+    "id": "linux_w5_hard_046",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "case-manipulation",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "case"
+    ],
+    "question": "Which parameter expansions change case?",
+    "options": [
+      "${myvar,,}",
+      "${myvar^^}",
+      "${myvar^}",
+      "${myvar#}"
+    ],
+    "correct_answers": [
+      "${myvar,,}",
+      "${myvar^^}",
+      "${myvar^}"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_047",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "declare",
+    "subtopic": "restrictions",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "declare"
+    ],
+    "question": "Which declare options restrict variable values?",
+    "options": [
+      "-i",
+      "-l",
+      "-u",
+      "-r"
+    ],
+    "correct_answers": [
+      "-i",
+      "-l",
+      "-u",
+      "-r"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_048",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "job-control",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "jobs"
+    ],
+    "question": "Which commands are used for job management?",
+    "options": [
+      "jobs",
+      "fg",
+      "kill",
+      "top"
+    ],
+    "correct_answers": [
+      "jobs",
+      "fg",
+      "kill",
+      "top"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_049",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "associative-arrays",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "hash"
+    ],
+    "question": "Which operations are valid for associative arrays?",
+    "options": [
+      "hash[\"a\"]=\"value\"",
+      "echo ${hash[@]}",
+      "unset 'hash[\"a\"]'",
+      "declare -A hash"
+    ],
+    "correct_answers": [
+      "hash[\"a\"]=\"value\"",
+      "echo ${hash[@]}",
+      "unset 'hash[\"a\"]'",
+      "declare -A hash"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_050",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "pattern-replacement",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "replacement"
+    ],
+    "question": "Which parameter expansions perform replacement?",
+    "options": [
+      "${myvar/pattern/string}",
+      "${myvar//pattern/string}",
+      "${myvar/#pattern/string}",
+      "${myvar/%pattern/string}"
+    ],
+    "correct_answers": [
+      "${myvar/pattern/string}",
+      "${myvar//pattern/string}",
+      "${myvar/#pattern/string}",
+      "${myvar/%pattern/string}"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_051",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "string-length",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "length"
+    ],
+    "question": "What is the value of ${#myvar} if myvar='datascience'?",
+    "correct_answer": "11"
+  },
+  {
+    "id": "linux_w5_hard_052",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "indexed-arrays",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "arrays"
+    ],
+    "question": "An array contains elements at indexes 0,1,2,3,4. What is ${#arr[@]}?",
+    "correct_answer": "5"
+  },
+  {
+    "id": "linux_w5_hard_053",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "exit-code",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code indicates misuse of shell builtins?",
+    "correct_answer": "2"
+  },
+  {
+    "id": "linux_w5_hard_054",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "shell-flags",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "$-"
+    ],
+    "question": "Which special variable displays shell flags?",
+    "correct_answer": "$-"
+  },
+  {
+    "id": "linux_w5_hard_055",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "string-length",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "length"
+    ],
+    "question": "Display the length of variable myvar.",
+    "accepted_answers": [
+      "echo ${#myvar}"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_056",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "slice",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "slice"
+    ],
+    "question": "Display 4 characters from myvar starting at offset 5.",
+    "accepted_answers": [
+      "echo ${myvar:5:4}"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_057",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "case-conversion",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "uppercase"
+    ],
+    "question": "Display myvar converted completely to uppercase.",
+    "accepted_answers": [
+      "echo ${myvar^^}"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_058",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "case-conversion",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "lowercase"
+    ],
+    "question": "Display myvar converted completely to lowercase.",
+    "accepted_answers": [
+      "echo ${myvar,,}"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_059",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "append",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "arrays"
+    ],
+    "question": "Append the value 'linux' to the indexed array arr.",
+    "accepted_answers": [
+      "arr+=(\"linux\")"
+    ]
+  },
+  {
+    "id": "linux_w5_hard_060",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "delete-element",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "arrays"
+    ],
+    "question": "Delete the element at index 2 from array arr.",
+    "accepted_answers": [
+      "unset 'arr[2]'"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_061",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "default-values",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "parameter-expansion"
+    ],
+    "question": "What happens when myvar is unset and 'echo ${myvar:=default}' is executed?",
+    "options": [
+      "Prints nothing",
+      "Prints default and assigns it to myvar",
+      "Deletes myvar",
+      "Raises an error"
+    ],
+    "correct_answer": "Prints default and assigns it to myvar"
+  },
+  {
+    "id": "linux_w5_expert_062",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "replacement",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "replacement"
+    ],
+    "question": "What does ${myvar//abc/xyz} do?",
+    "options": [
+      "Replace first occurrence only",
+      "Replace all occurrences",
+      "Delete abc",
+      "Append xyz"
+    ],
+    "correct_answer": "Replace all occurrences"
+  },
+  {
+    "id": "linux_w5_expert_063",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "pattern-removal",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "pattern"
+    ],
+    "question": "What is the difference between ${myvar#pattern} and ${myvar##pattern}?",
+    "options": [
+      "No difference",
+      "# removes shortest match, ## removes longest match",
+      "# removes longest match, ## removes shortest match",
+      "Both replace patterns"
+    ],
+    "correct_answer": "# removes shortest match, ## removes longest match"
+  },
+  {
+    "id": "linux_w5_expert_064",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "declare",
+    "subtopic": "readonly",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 6,
+    "tags": [
+      "declare"
+    ],
+    "question": "Which declare option makes a variable read-only?",
+    "options": [
+      "-i",
+      "-u",
+      "-l",
+      "-r"
+    ],
+    "correct_answer": "-r"
+  },
+  {
+    "id": "linux_w5_expert_065",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "indexed",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "arrays"
+    ],
+    "question": "Which commands display information about an indexed array?",
+    "options": [
+      "echo ${arr[@]}",
+      "echo ${#arr[@]}",
+      "echo ${!arr[@]}",
+      "unset arr"
+    ],
+    "correct_answers": [
+      "echo ${arr[@]}",
+      "echo ${#arr[@]}",
+      "echo ${!arr[@]}"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_066",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "associative-arrays",
+    "subtopic": "inspection",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "hash"
+    ],
+    "question": "Which commands display associative array information?",
+    "options": [
+      "echo ${hash[@]}",
+      "echo ${!hash[@]}",
+      "echo ${#hash[@]}",
+      "rm hash"
+    ],
+    "correct_answers": [
+      "echo ${hash[@]}",
+      "echo ${!hash[@]}",
+      "echo ${#hash[@]}"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_067",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "declare",
+    "subtopic": "restrictions",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "declare"
+    ],
+    "question": "Which restrictions can later be removed using declare +option?",
+    "options": [
+      "+i",
+      "+l",
+      "+u",
+      "+r"
+    ],
+    "correct_answers": [
+      "+i",
+      "+l",
+      "+u"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_068",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "shell-flags",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "$-"
+    ],
+    "question": "Which flags may appear in $- according to the notes?",
+    "options": [
+      "i",
+      "m",
+      "B",
+      "z"
+    ],
+    "correct_answers": [
+      "i",
+      "m",
+      "B"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_069",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "background-jobs",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "jobs"
+    ],
+    "question": "Which commands are related to monitoring or managing processes?",
+    "options": [
+      "top",
+      "jobs",
+      "kill",
+      "pwd"
+    ],
+    "correct_answers": [
+      "top",
+      "jobs",
+      "kill"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_070",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "parameter-expansion",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "expansion"
+    ],
+    "question": "Which parameter expansions may modify the variable value?",
+    "options": [
+      "${myvar:=default}",
+      "${myvar:+default}",
+      "${myvar:-default}",
+      "${myvar^^}"
+    ],
+    "correct_answers": [
+      "${myvar:=default}",
+      "${myvar:+default}",
+      "${myvar^^}"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_071",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "exit-codes",
+    "subtopic": "success-failure",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code indicates a successful command execution?",
+    "correct_answer": "0"
+  },
+  {
+    "id": "linux_w5_expert_072",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "exit-codes",
+    "subtopic": "command-not-found",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code is returned when a command is not found?",
+    "correct_answer": "127"
+  },
+  {
+    "id": "linux_w5_expert_073",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "string-length",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "length"
+    ],
+    "question": "What is the length of the string 'shellvariables'?",
+    "correct_answer": "14"
+  },
+  {
+    "id": "linux_w5_expert_074",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "count",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "arrays"
+    ],
+    "question": "An array contains indexes 0 through 9. What is ${#arr[@]}?",
+    "correct_answer": "10"
+  },
+  {
+    "id": "linux_w5_expert_075",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "substring",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 8,
+    "tags": [
+      "slice"
+    ],
+    "question": "For myvar='abcdefghij', how many characters are returned by ${myvar:3:5}?",
+    "correct_answer": "5"
+  },
+  {
+    "id": "linux_w5_expert_076",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "pattern-replacement",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "replacement"
+    ],
+    "question": "Replace all occurrences of 'linux' with 'unix' in variable myvar and display the result.",
+    "accepted_answers": [
+      "echo ${myvar//linux/unix}"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_077",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "pattern-removal",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "pattern"
+    ],
+    "question": "Remove the longest matching prefix pattern from variable myvar.",
+    "accepted_answers": [
+      "echo ${myvar##pattern}"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_078",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "case-conversion",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "case"
+    ],
+    "question": "Convert only the first character of myvar to uppercase and display it.",
+    "accepted_answers": [
+      "echo ${myvar^}"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_079",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "project-style",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "arrays",
+      "case"
+    ],
+    "question": "Create an indexed array named lower.",
+    "accepted_answers": [
+      "declare -a lower"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_080",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "project-style",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "arrays",
+      "case"
+    ],
+    "question": "Create an indexed array named upper.",
+    "accepted_answers": [
+      "declare -a upper"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_081",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "background-jobs",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "jobs",
+      "background"
+    ],
+    "question": "What does the '&' operator do when appended to a command?",
+    "options": [
+      "Runs the command as root",
+      "Runs the command in background",
+      "Runs the command twice",
+      "Kills the command"
+    ],
+    "correct_answer": "Runs the command in background"
+  },
+  {
+    "id": "linux_w5_expert_082",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "foreground",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "fg"
+    ],
+    "question": "What does the fg command do?",
+    "options": [
+      "Kills a process",
+      "Lists jobs",
+      "Brings a job to foreground",
+      "Creates a job"
+    ],
+    "correct_answer": "Brings a job to foreground"
+  },
+  {
+    "id": "linux_w5_expert_083",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "signals",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "kill"
+    ],
+    "question": "Which signal is sent by kill -9?",
+    "options": [
+      "SIGTERM",
+      "SIGINT",
+      "SIGKILL",
+      "SIGHUP"
+    ],
+    "correct_answer": "SIGKILL"
+  },
+  {
+    "id": "linux_w5_expert_084",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "script-name",
+    "type": "mcq",
+    "difficulty": "expert",
+    "marks": 10,
+    "tags": [
+      "$0"
+    ],
+    "question": "What does $0 represent inside a shell script?",
+    "options": [
+      "Current PID",
+      "Exit status",
+      "Script name",
+      "Current user"
+    ],
+    "correct_answer": "Script name"
+  },
+  {
+    "id": "linux_w5_expert_085",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "commands",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "process"
+    ],
+    "question": "Which commands are commonly used for process management?",
+    "options": [
+      "top",
+      "kill",
+      "jobs",
+      "grep"
+    ],
+    "correct_answers": [
+      "top",
+      "kill",
+      "jobs"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_086",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "environment-variables",
+    "subtopic": "common-vars",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "environment"
+    ],
+    "question": "Which variables are typically exported environment variables?",
+    "options": [
+      "PATH",
+      "HOME",
+      "HOSTNAME",
+      "mylocalvar"
+    ],
+    "correct_answers": [
+      "PATH",
+      "HOME",
+      "HOSTNAME"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_087",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "inspection",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "arrays"
+    ],
+    "question": "Which expressions return information about an array?",
+    "options": [
+      "${arr[@]}",
+      "${#arr[@]}",
+      "${!arr[@]}",
+      "${arr%%}"
+    ],
+    "correct_answers": [
+      "${arr[@]}",
+      "${#arr[@]}",
+      "${!arr[@]}"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_088",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "parameter-expansion",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "expansion"
+    ],
+    "question": "Which parameter expansions are valid Bash syntax?",
+    "options": [
+      "${var:-default}",
+      "${var:=default}",
+      "${#var}",
+      "${var??}"
+    ],
+    "correct_answers": [
+      "${var:-default}",
+      "${var:=default}",
+      "${#var}"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_089",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "declare",
+    "subtopic": "attributes",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "declare"
+    ],
+    "question": "Which declare attributes are valid?",
+    "options": [
+      "-i",
+      "-r",
+      "-u",
+      "-l"
+    ],
+    "correct_answers": [
+      "-i",
+      "-r",
+      "-u",
+      "-l"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_090",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "shell",
+    "type": "multiple_select",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "special"
+    ],
+    "question": "Which are special shell variables?",
+    "options": [
+      "$0",
+      "$$",
+      "$?",
+      "$-"
+    ],
+    "correct_answers": [
+      "$0",
+      "$$",
+      "$?",
+      "$-"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_091",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "signals",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "signal"
+    ],
+    "question": "What signal number is used by kill -9?",
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_w5_expert_092",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "exit-status",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "exit-code"
+    ],
+    "question": "What exit code is commonly returned when a process is terminated by SIGKILL?",
+    "correct_answer": "137"
+  },
+  {
+    "id": "linux_w5_expert_093",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "variables",
+    "subtopic": "length",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "length"
+    ],
+    "question": "What is the length of the string 'environment'?",
+    "correct_answer": "11"
+  },
+  {
+    "id": "linux_w5_expert_094",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "arrays",
+    "subtopic": "count",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "arrays"
+    ],
+    "question": "If an array contains indexes 0 through 14, what is ${#arr[@]}?",
+    "correct_answer": "15"
+  },
+  {
+    "id": "linux_w5_expert_095",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "special-variables",
+    "subtopic": "pid",
+    "type": "nat",
+    "difficulty": "expert",
+    "marks": 12,
+    "tags": [
+      "$$"
+    ],
+    "question": "Which special variable stores the current shell PID?",
+    "correct_answer": "$$"
+  },
+  {
+    "id": "linux_w5_expert_096",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "jobs",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "jobs"
+    ],
+    "question": "Display all jobs currently managed by the shell.",
+    "accepted_answers": [
+      "jobs"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_097",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "foreground",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "fg"
+    ],
+    "question": "Bring job number 1 to the foreground.",
+    "accepted_answers": [
+      "fg %1"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_098",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "process-control",
+    "subtopic": "termination",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "kill"
+    ],
+    "question": "Forcefully terminate process 1234.",
+    "accepted_answers": [
+      "kill -9 1234"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_099",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "monitoring",
+    "subtopic": "process-view",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "top"
+    ],
+    "question": "Open the interactive process monitoring utility.",
+    "accepted_answers": [
+      "top"
+    ]
+  },
+  {
+    "id": "linux_w5_expert_100",
+    "week": 5,
+    "subject": "Linux System Commands",
+    "topic": "environment-variables",
+    "subtopic": "path",
+    "type": "coding",
+    "difficulty": "expert",
+    "marks": 15,
+    "tags": [
+      "PATH"
+    ],
+    "question": "Display the value of the PATH environment variable.",
+    "accepted_answers": [
+      "echo $PATH"
+    ]
+  }
+]

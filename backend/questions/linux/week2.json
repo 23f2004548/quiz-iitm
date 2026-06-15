@@ -1,0 +1,2048 @@
+[
+  {
+    "id": "linux_easy_001",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "pwd",
+    "subtopic": "navigation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "terminal",
+      "navigation",
+      "pwd"
+    ],
+    "question": "Which command displays the current working directory?",
+    "options": [
+      "ls",
+      "pwd",
+      "cd",
+      "mkdir"
+    ],
+    "correct_answer": "pwd",
+    "explanation": "pwd stands for Print Working Directory."
+  },
+  {
+    "id": "linux_easy_002",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "ls",
+    "subtopic": "listing",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "ls",
+      "listing"
+    ],
+    "question": "Which command lists files and directories?",
+    "options": [
+      "pwd",
+      "ls",
+      "cat",
+      "cd"
+    ],
+    "correct_answer": "ls",
+    "explanation": "ls lists directory contents."
+  },
+  {
+    "id": "linux_easy_003",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "hidden-files",
+    "subtopic": "ls-options",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "ls",
+      "hidden-files"
+    ],
+    "question": "Which option shows hidden files?",
+    "options": [
+      "-h",
+      "-a",
+      "-r",
+      "-s"
+    ],
+    "correct_answer": "-a",
+    "explanation": "ls -a displays hidden files."
+  },
+  {
+    "id": "linux_easy_004",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "root-directory",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "filesystem",
+      "root"
+    ],
+    "question": "What symbol represents the root directory?",
+    "options": [
+      "/",
+      "~",
+      ".",
+      ".."
+    ],
+    "correct_answer": "/",
+    "explanation": "The root directory is represented by /."
+  },
+  {
+    "id": "linux_easy_005",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "navigation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "current-directory"
+    ],
+    "question": "What does '.' represent?",
+    "options": [
+      "Parent directory",
+      "Current directory",
+      "Root directory",
+      "Home directory"
+    ],
+    "correct_answer": "Current directory",
+    "explanation": ". refers to the current directory."
+  },
+  {
+    "id": "linux_easy_015",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "home-directory",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "filesystem",
+      "home"
+    ],
+    "question": "Which directory typically contains user home directories?",
+    "options": [
+      "/home",
+      "/etc",
+      "/usr",
+      "/tmp"
+    ],
+    "correct_answer": "/home",
+    "explanation": "User home directories are generally stored under /home."
+  },
+  {
+    "id": "linux_easy_016",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "configuration-files",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "etc",
+      "configuration"
+    ],
+    "question": "Which directory stores system configuration files?",
+    "options": [
+      "/etc",
+      "/home",
+      "/tmp",
+      "/usr"
+    ],
+    "correct_answer": "/etc",
+    "explanation": "/etc contains host-specific configuration files."
+  },
+  {
+    "id": "linux_easy_017",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "temporary-files",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "tmp"
+    ],
+    "question": "Temporary files are generally stored in which directory?",
+    "options": [
+      "/tmp",
+      "/boot",
+      "/etc",
+      "/usr"
+    ],
+    "correct_answer": "/tmp",
+    "explanation": "/tmp is used for temporary files."
+  },
+  {
+    "id": "linux_easy_018",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "file-command",
+    "subtopic": "file-types",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "file",
+      "types"
+    ],
+    "question": "Which command is used to determine the type of a file?",
+    "options": [
+      "file",
+      "type",
+      "which",
+      "ls"
+    ],
+    "correct_answer": "file",
+    "explanation": "The file command identifies file types."
+  },
+  {
+    "id": "linux_easy_021",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "overwrite",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "redirection",
+      "output"
+    ],
+    "question": "Which operator redirects output and overwrites a file?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "|"
+    ],
+    "correct_answer": ">",
+    "explanation": "> overwrites the contents of a file."
+  },
+  {
+    "id": "linux_easy_022",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "append",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "redirection",
+      "append"
+    ],
+    "question": "Which operator appends output to an existing file?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "|"
+    ],
+    "correct_answer": ">>",
+    "explanation": ">> appends output instead of overwriting."
+  },
+  {
+    "id": "linux_easy_028",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "inode",
+    "subtopic": "basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "inode"
+    ],
+    "question": "What does an inode primarily store?",
+    "options": [
+      "Metadata",
+      "File contents",
+      "Network address",
+      "User password"
+    ],
+    "correct_answer": "Metadata",
+    "explanation": "Inodes store metadata such as permissions and size."
+  },
+  {
+    "id": "linux_easy_031",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ports",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "http"
+    ],
+    "question": "Which port is commonly used for HTTP?",
+    "options": [
+      "21",
+      "22",
+      "80",
+      "443"
+    ],
+    "correct_answer": "80",
+    "explanation": "HTTP typically uses port 80."
+  },
+  {
+    "id": "linux_easy_032",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ports",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "https"
+    ],
+    "question": "Which port is commonly used for HTTPS?",
+    "options": [
+      "21",
+      "22",
+      "80",
+      "443"
+    ],
+    "correct_answer": "443",
+    "explanation": "HTTPS typically uses port 443."
+  },
+  {
+    "id": "linux_easy_034",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "nano",
+    "subtopic": "editor-basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "nano"
+    ],
+    "question": "Which key combination exits nano?",
+    "options": [
+      "Ctrl+X",
+      "Ctrl+S",
+      "Ctrl+W",
+      "Ctrl+K"
+    ],
+    "correct_answer": "Ctrl+X",
+    "explanation": "Ctrl+X exits nano."
+  },
+  {
+    "id": "linux_easy_035",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "nano",
+    "subtopic": "saving-files",
+    "type": "mcq",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "nano",
+      "save"
+    ],
+    "question": "Which key combination saves the current file in nano?",
+    "options": [
+      "Ctrl+O",
+      "Ctrl+X",
+      "Ctrl+R",
+      "Ctrl+K"
+    ],
+    "correct_answer": "Ctrl+O",
+    "explanation": "Ctrl+O writes the current buffer to a file."
+  },
+  {
+    "id": "linux_medium_036",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "chmod",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "chmod",
+      "permissions"
+    ],
+    "question": "What permission string corresponds to chmod 644?",
+    "options": [
+      "rw-r--r--",
+      "rwxr--r--",
+      "rwxr-xr-x",
+      "r--r--r--"
+    ],
+    "correct_answer": "rw-r--r--",
+    "explanation": "6=rw-, 4=r--, 4=r--."
+  },
+  {
+    "id": "linux_medium_038",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "directory-permissions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "permissions",
+      "directory"
+    ],
+    "question": "Which permission allows entering a directory?",
+    "options": [
+      "Read",
+      "Write",
+      "Execute",
+      "Delete"
+    ],
+    "correct_answer": "Execute"
+  },
+  {
+    "id": "linux_medium_040",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "file-types",
+    "subtopic": "ls-l",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "file-types"
+    ],
+    "question": "In ls -l output, what does 'd' indicate?",
+    "options": [
+      "Device",
+      "Deleted",
+      "Directory",
+      "Disk"
+    ],
+    "correct_answer": "Directory"
+  },
+  {
+    "id": "linux_medium_044",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "links",
+    "subtopic": "hard-links",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "hard-links"
+    ],
+    "question": "Hard links point to:",
+    "options": [
+      "A path",
+      "A URL",
+      "The same inode",
+      "A directory"
+    ],
+    "correct_answer": "The same inode"
+  },
+  {
+    "id": "linux_medium_045",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "links",
+    "subtopic": "symbolic-links",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "symbolic-links"
+    ],
+    "question": "Symbolic links primarily point to:",
+    "options": [
+      "A path",
+      "An inode directly",
+      "A process",
+      "A device"
+    ],
+    "correct_answer": "A path"
+  },
+  {
+    "id": "linux_medium_051",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "nano",
+    "subtopic": "saving",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "nano"
+    ],
+    "question": "Which key combination saves a file in nano?",
+    "options": [
+      "Ctrl+O",
+      "Ctrl+X",
+      "Ctrl+W",
+      "Ctrl+K"
+    ],
+    "correct_answer": "Ctrl+O"
+  },
+  {
+    "id": "linux_medium_052",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "nano",
+    "subtopic": "exit",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "nano"
+    ],
+    "question": "Which key combination exits nano?",
+    "options": [
+      "Ctrl+S",
+      "Ctrl+O",
+      "Ctrl+X",
+      "Ctrl+Q"
+    ],
+    "correct_answer": "Ctrl+X"
+  },
+  {
+    "id": "linux_medium_054",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "vi",
+    "subtopic": "modes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "vi"
+    ],
+    "question": "Which key is commonly used to return to command mode in vi?",
+    "options": [
+      "Enter",
+      "Esc",
+      "Tab",
+      "Ctrl+C"
+    ],
+    "correct_answer": "Esc"
+  },
+  {
+    "id": "linux_medium_057",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "vi",
+    "subtopic": "editing",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "vi"
+    ],
+    "question": "Which command deletes the current line in vi?",
+    "options": [
+      "dd",
+      "dw",
+      "x",
+      "yy"
+    ],
+    "correct_answer": "dd"
+  },
+  {
+    "id": "linux_medium_058",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "vi",
+    "subtopic": "copy-paste",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "vi"
+    ],
+    "question": "Which command copies the current line in vi?",
+    "options": [
+      "yy",
+      "pp",
+      "dd",
+      "cw"
+    ],
+    "correct_answer": "yy"
+  },
+  {
+    "id": "linux_medium_059",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "usr",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "usr"
+    ],
+    "question": "Which directory contains user commands?",
+    "options": [
+      "/usr/bin",
+      "/usr/src",
+      "/usr/share",
+      "/usr/include"
+    ],
+    "correct_answer": "/usr/bin"
+  },
+  {
+    "id": "linux_medium_060",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "var",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "var"
+    ],
+    "question": "Which directory typically stores log files?",
+    "options": [
+      "/var/log",
+      "/usr/log",
+      "/tmp/log",
+      "/etc/log"
+    ],
+    "correct_answer": "/var/log"
+  },
+  {
+    "id": "linux_medium_066",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "ssh",
+    "subtopic": "remote-access",
+    "type": "mcq",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "ssh"
+    ],
+    "question": "SSH stands for:",
+    "options": [
+      "Secure Shell",
+      "System Shell",
+      "Secure Share",
+      "Shell System Host"
+    ],
+    "correct_answer": "Secure Shell"
+  },
+  {
+    "id": "linux_hard_071",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "directory-traversal",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "permissions",
+      "directory"
+    ],
+    "question": "A directory has permissions rw-. Which action is impossible?",
+    "options": [
+      "Listing contents",
+      "Creating a file",
+      "Changing into the directory",
+      "Viewing filenames"
+    ],
+    "correct_answer": "Changing into the directory"
+  },
+  {
+    "id": "linux_hard_072",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "path-traversal",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "permissions"
+    ],
+    "question": "To access /home/user/docs/file.txt, execute permission is required on:",
+    "options": [
+      "Only file.txt",
+      "Only docs",
+      "Only home",
+      "All parent directories"
+    ],
+    "correct_answer": "All parent directories"
+  },
+  {
+    "id": "linux_hard_075",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "inode",
+    "subtopic": "hard-links",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "inode",
+      "hard-links"
+    ],
+    "question": "Two filenames point to the same inode. They are:",
+    "options": [
+      "Soft links",
+      "Hard links",
+      "Directories",
+      "Mount points"
+    ],
+    "correct_answer": "Hard links"
+  },
+  {
+    "id": "linux_hard_076",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "links",
+    "subtopic": "symbolic-links",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "symbolic-links"
+    ],
+    "question": "Deleting the original file breaks which type of link?",
+    "options": [
+      "Hard link",
+      "Symbolic link",
+      "Both",
+      "Neither"
+    ],
+    "correct_answer": "Symbolic link"
+  },
+  {
+    "id": "linux_hard_078",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "root",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "filesystem"
+    ],
+    "question": "Which statement about '/' is true?",
+    "options": [
+      "It has no parent",
+      "It is its own parent",
+      "It belongs to /home",
+      "It is a symbolic link"
+    ],
+    "correct_answer": "It is its own parent"
+  },
+  {
+    "id": "linux_hard_085",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "man",
+    "subtopic": "sections",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "man"
+    ],
+    "question": "Which man page section contains kernel routines?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_answer": "9"
+  },
+  {
+    "id": "linux_hard_087",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "vi",
+    "subtopic": "editing",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "vi"
+    ],
+    "question": "Which vi command deletes the current line?",
+    "options": [
+      "yy",
+      "dd",
+      "dw",
+      "cw"
+    ],
+    "correct_answer": "dd"
+  },
+  {
+    "id": "linux_hard_090",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "ssh",
+    "subtopic": "ports",
+    "type": "mcq",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "ssh"
+    ],
+    "question": "SSH uses which default port?",
+    "options": [
+      "21",
+      "22",
+      "80",
+      "443"
+    ],
+    "correct_answer": "22"
+  },
+  {
+    "id": "linux_easy_006",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "navigation",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "navigation"
+    ],
+    "question": "Which symbols are used in filesystem navigation?",
+    "options": [
+      ".",
+      "..",
+      "/",
+      "SELECT"
+    ],
+    "correct_answers": [
+      ".",
+      "..",
+      "/"
+    ],
+    "explanation": "These symbols are used to navigate the filesystem."
+  },
+  {
+    "id": "linux_easy_007",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "basic-commands",
+    "subtopic": "terminal",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "terminal",
+      "commands"
+    ],
+    "question": "Which are valid Linux commands?",
+    "options": [
+      "pwd",
+      "ls",
+      "mkdir",
+      "PRINT"
+    ],
+    "correct_answers": [
+      "pwd",
+      "ls",
+      "mkdir"
+    ],
+    "explanation": "pwd, ls, and mkdir are valid Linux commands."
+  },
+  {
+    "id": "linux_easy_019",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "basic-permissions",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "permissions"
+    ],
+    "question": "Which are standard Linux permission types?",
+    "options": [
+      "Read",
+      "Write",
+      "Execute",
+      "Delete"
+    ],
+    "correct_answers": [
+      "Read",
+      "Write",
+      "Execute"
+    ],
+    "explanation": "Linux permissions are read, write, and execute."
+  },
+  {
+    "id": "linux_easy_027",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "links",
+    "subtopic": "hard-links",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "links",
+      "inode"
+    ],
+    "question": "Which statements about hard links are true?",
+    "options": [
+      "Share the same inode",
+      "Can survive deletion of original filename",
+      "Always point to URLs",
+      "Are network connections"
+    ],
+    "correct_answers": [
+      "Share the same inode",
+      "Can survive deletion of original filename"
+    ],
+    "explanation": "Hard links point to the same inode."
+  },
+  {
+    "id": "linux_easy_033",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "diagnostics",
+    "type": "multiple_select",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "network-tools"
+    ],
+    "question": "Which commands are network diagnostic tools?",
+    "options": [
+      "ping",
+      "traceroute",
+      "nslookup",
+      "mkdir"
+    ],
+    "correct_answers": [
+      "ping",
+      "traceroute",
+      "nslookup"
+    ],
+    "explanation": "These commands help diagnose network connectivity."
+  },
+  {
+    "id": "linux_medium_039",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "directory-permissions",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "permissions",
+      "directory"
+    ],
+    "question": "Directory read permission allows:",
+    "options": [
+      "List filenames",
+      "View directory contents",
+      "Enter directory",
+      "Traverse directory"
+    ],
+    "correct_answers": [
+      "List filenames",
+      "View directory contents"
+    ]
+  },
+  {
+    "id": "linux_medium_041",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "file-types",
+    "subtopic": "linux-files",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "file-types"
+    ],
+    "question": "Which are valid Linux file types?",
+    "options": [
+      "Regular file",
+      "Directory",
+      "Socket",
+      "Spreadsheet"
+    ],
+    "correct_answers": [
+      "Regular file",
+      "Directory",
+      "Socket"
+    ]
+  },
+  {
+    "id": "linux_medium_043",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "inode",
+    "subtopic": "metadata",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "inode"
+    ],
+    "question": "Which information is stored in an inode?",
+    "options": [
+      "Permissions",
+      "Owner",
+      "Size",
+      "Actual file contents"
+    ],
+    "correct_answers": [
+      "Permissions",
+      "Owner",
+      "Size"
+    ]
+  },
+  {
+    "id": "linux_medium_053",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "nano",
+    "subtopic": "editing",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "nano"
+    ],
+    "question": "Which nano shortcuts are related to editing?",
+    "options": [
+      "Ctrl+K",
+      "Ctrl+U",
+      "Alt+6",
+      "ping"
+    ],
+    "correct_answers": [
+      "Ctrl+K",
+      "Ctrl+U",
+      "Alt+6"
+    ]
+  },
+  {
+    "id": "linux_medium_056",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "vi",
+    "subtopic": "navigation",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "vi"
+    ],
+    "question": "Which keys move the cursor in vi?",
+    "options": [
+      "h",
+      "j",
+      "k",
+      "l"
+    ],
+    "correct_answers": [
+      "h",
+      "j",
+      "k",
+      "l"
+    ]
+  },
+  {
+    "id": "linux_medium_063",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "tools",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "network-tools"
+    ],
+    "question": "Which are network diagnostic tools?",
+    "options": [
+      "ping",
+      "traceroute",
+      "dig",
+      "mkdir"
+    ],
+    "correct_answers": [
+      "ping",
+      "traceroute",
+      "dig"
+    ]
+  },
+  {
+    "id": "linux_medium_070",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "paths",
+    "type": "multiple_select",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "paths"
+    ],
+    "question": "Which are absolute paths?",
+    "options": [
+      "/home/user/file.txt",
+      "./file.txt",
+      "../file.txt",
+      "/etc/passwd"
+    ],
+    "correct_answers": [
+      "/home/user/file.txt",
+      "/etc/passwd"
+    ]
+  },
+  {
+    "id": "linux_hard_077",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "inode",
+    "subtopic": "metadata",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "inode"
+    ],
+    "question": "Which information is stored in an inode?",
+    "options": [
+      "Permissions",
+      "Owner",
+      "File size",
+      "Actual contents"
+    ],
+    "correct_answers": [
+      "Permissions",
+      "Owner",
+      "File size"
+    ]
+  },
+  {
+    "id": "linux_hard_079",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "filesystem",
+    "subtopic": "fhs",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "filesystem"
+    ],
+    "question": "Which directories are part of the FHS root hierarchy?",
+    "options": [
+      "/etc",
+      "/var",
+      "/usr",
+      "/windows"
+    ],
+    "correct_answers": [
+      "/etc",
+      "/var",
+      "/usr"
+    ]
+  },
+  {
+    "id": "linux_hard_088",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "vi",
+    "subtopic": "copy-paste",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "vi"
+    ],
+    "question": "Which vi commands are related to copy/paste?",
+    "options": [
+      "yy",
+      "p",
+      "dd",
+      "u"
+    ],
+    "correct_answers": [
+      "yy",
+      "p"
+    ]
+  },
+  {
+    "id": "linux_hard_089",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "nano",
+    "subtopic": "navigation",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "nano"
+    ],
+    "question": "Which nano shortcuts are used for navigation?",
+    "options": [
+      "Ctrl+A",
+      "Ctrl+E",
+      "Ctrl+P",
+      "chmod"
+    ],
+    "correct_answers": [
+      "Ctrl+A",
+      "Ctrl+E",
+      "Ctrl+P"
+    ]
+  },
+  {
+    "id": "linux_hard_091",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "tools",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "network-tools"
+    ],
+    "question": "Which commands are networking tools?",
+    "options": [
+      "ping",
+      "dig",
+      "netstat",
+      "touch"
+    ],
+    "correct_answers": [
+      "ping",
+      "dig",
+      "netstat"
+    ]
+  },
+  {
+    "id": "linux_hard_099",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "reasoning",
+    "type": "multiple_select",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "permissions"
+    ],
+    "question": "Which permissions exist in Linux?",
+    "options": [
+      "Read",
+      "Write",
+      "Execute",
+      "Compile"
+    ],
+    "correct_answers": [
+      "Read",
+      "Write",
+      "Execute"
+    ]
+  },
+  {
+    "id": "linux_easy_008",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "octal",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "permissions",
+      "octal"
+    ],
+    "question": "What is the octal value of rwxrwxrwx?",
+    "correct_answer": "777",
+    "explanation": "rwx=7 for owner, group, and others."
+  },
+  {
+    "id": "linux_easy_020",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "octal",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "permissions",
+      "octal"
+    ],
+    "question": "What is the octal representation of rwxr-xr-x ?",
+    "correct_answer": "755",
+    "explanation": "rwx=7, r-x=5, r-x=5."
+  },
+  {
+    "id": "linux_easy_030",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ports",
+    "type": "nat",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "ssh",
+      "ports"
+    ],
+    "question": "What is the default TCP port number used by SSH?",
+    "correct_answer": "22",
+    "explanation": "SSH uses TCP port 22."
+  },
+  {
+    "id": "linux_medium_037",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "chmod",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "chmod"
+    ],
+    "question": "What is the octal value of rwxr--r-- ?",
+    "correct_answer": "744"
+  },
+  {
+    "id": "linux_medium_064",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ports",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "ssh"
+    ],
+    "question": "What is the default port used by SSH?",
+    "correct_answer": "22"
+  },
+  {
+    "id": "linux_medium_065",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ports",
+    "type": "nat",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "mysql"
+    ],
+    "question": "What is the default port used by MySQL?",
+    "correct_answer": "3306"
+  },
+  {
+    "id": "linux_hard_073",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "octal",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "permissions"
+    ],
+    "question": "Convert rwxr--rw- into octal notation.",
+    "correct_answer": "746"
+  },
+  {
+    "id": "linux_hard_074",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "binary",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "permissions"
+    ],
+    "question": "Convert binary permission 101 110 011 into octal.",
+    "correct_answer": "563"
+  },
+  {
+    "id": "linux_hard_084",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "chmod",
+    "subtopic": "permissions",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "chmod"
+    ],
+    "question": "What is the octal value of rwxr-x--- ?",
+    "correct_answer": "750"
+  },
+  {
+    "id": "linux_hard_086",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "man",
+    "subtopic": "sections",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "man"
+    ],
+    "question": "Which man page section contains executable programs and shell commands?",
+    "correct_answer": "1"
+  },
+  {
+    "id": "linux_hard_092",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ports",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "https"
+    ],
+    "question": "What is the default port used by HTTPS?",
+    "correct_answer": "443"
+  },
+  {
+    "id": "linux_hard_093",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ports",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "mysql"
+    ],
+    "question": "What is the default MySQL port?",
+    "correct_answer": "3306"
+  },
+  {
+    "id": "linux_hard_100",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "permissions",
+    "subtopic": "octal",
+    "type": "nat",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "permissions"
+    ],
+    "question": "What is the octal representation of r-xrwxr-- ?",
+    "correct_answer": "574"
+  },
+  {
+    "id": "linux_easy_009",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "mkdir",
+    "subtopic": "directory-management",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "mkdir"
+    ],
+    "question": "Create a directory named project.",
+    "accepted_answers": [
+      "mkdir project"
+    ],
+    "regex": "^mkdir\\s+project$",
+    "explanation": "mkdir creates a directory."
+  },
+  {
+    "id": "linux_easy_010",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "touch",
+    "subtopic": "file-management",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "touch"
+    ],
+    "question": "Create an empty file named report.txt.",
+    "accepted_answers": [
+      "touch report.txt"
+    ],
+    "regex": "^touch\\s+report\\.txt$",
+    "explanation": "touch creates an empty file."
+  },
+  {
+    "id": "linux_easy_011",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "cat",
+    "subtopic": "file-viewing",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "cat",
+      "files"
+    ],
+    "question": "Display the contents of report.txt.",
+    "accepted_answers": [
+      "cat report.txt"
+    ],
+    "regex": "^cat\\s+report\\.txt$",
+    "explanation": "cat displays the contents of a file."
+  },
+  {
+    "id": "linux_easy_012",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "cp",
+    "subtopic": "file-copying",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "cp"
+    ],
+    "question": "Create a copy of report.txt named backup.txt.",
+    "accepted_answers": [
+      "cp report.txt backup.txt"
+    ],
+    "regex": "^cp\\s+report\\.txt\\s+backup\\.txt$",
+    "explanation": "cp copies files."
+  },
+  {
+    "id": "linux_easy_013",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "mv",
+    "subtopic": "file-renaming",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "mv"
+    ],
+    "question": "Rename old.txt to new.txt.",
+    "accepted_answers": [
+      "mv old.txt new.txt"
+    ],
+    "regex": "^mv\\s+old\\.txt\\s+new\\.txt$",
+    "explanation": "mv can rename or move files."
+  },
+  {
+    "id": "linux_easy_014",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "rm",
+    "subtopic": "file-removal",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "rm"
+    ],
+    "question": "Delete a file named temp.txt.",
+    "accepted_answers": [
+      "rm temp.txt"
+    ],
+    "regex": "^rm\\s+temp\\.txt$",
+    "explanation": "rm removes files."
+  },
+  {
+    "id": "linux_easy_023",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "man",
+    "subtopic": "documentation",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "man"
+    ],
+    "question": "Open the manual page for the ls command.",
+    "accepted_answers": [
+      "man ls"
+    ],
+    "regex": "^man\\s+ls$",
+    "explanation": "man displays command documentation."
+  },
+  {
+    "id": "linux_easy_024",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "head",
+    "subtopic": "file-viewing",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "head"
+    ],
+    "question": "Display the first 10 lines of log.txt.",
+    "accepted_answers": [
+      "head log.txt",
+      "head -n 10 log.txt"
+    ],
+    "regex": "^head(\\s+-n\\s+10)?\\s+log\\.txt$",
+    "explanation": "head shows the first lines of a file."
+  },
+  {
+    "id": "linux_easy_025",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "tail",
+    "subtopic": "file-viewing",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "tail"
+    ],
+    "question": "Display the last 10 lines of log.txt.",
+    "accepted_answers": [
+      "tail log.txt",
+      "tail -n 10 log.txt"
+    ],
+    "regex": "^tail(\\s+-n\\s+10)?\\s+log\\.txt$",
+    "explanation": "tail shows the last lines of a file."
+  },
+  {
+    "id": "linux_easy_026",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "wc",
+    "subtopic": "line-count",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "wc"
+    ],
+    "question": "Count the number of lines in report.txt.",
+    "accepted_answers": [
+      "wc -l report.txt"
+    ],
+    "regex": "^wc\\s+-l\\s+report\\.txt$",
+    "explanation": "wc -l counts lines."
+  },
+  {
+    "id": "linux_easy_029",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "inode",
+    "subtopic": "inspection",
+    "type": "coding",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "inode",
+      "ls"
+    ],
+    "question": "Display inode numbers of files in the current directory.",
+    "accepted_answers": [
+      "ls -i"
+    ],
+    "regex": "^ls\\s+-i$",
+    "explanation": "ls -i displays inode numbers."
+  },
+  {
+    "id": "linux_medium_042",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "inode",
+    "subtopic": "inspection",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "inode"
+    ],
+    "question": "Display inode numbers of files.",
+    "accepted_answers": [
+      "ls -i"
+    ],
+    "regex": "^ls\\s+-i$"
+  },
+  {
+    "id": "linux_medium_046",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "file-size",
+    "subtopic": "du",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "du"
+    ],
+    "question": "Display disk usage of the current directory.",
+    "accepted_answers": [
+      "du",
+      "du ."
+    ],
+    "regex": "^du(\\s+\\.)?$"
+  },
+  {
+    "id": "linux_medium_047",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "file-size",
+    "subtopic": "stat",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "stat"
+    ],
+    "question": "Display detailed metadata of report.txt.",
+    "accepted_answers": [
+      "stat report.txt"
+    ],
+    "regex": "^stat\\s+report\\.txt$"
+  },
+  {
+    "id": "linux_medium_048",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "documentation",
+    "subtopic": "which",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "which"
+    ],
+    "question": "Find the path of the ls command.",
+    "accepted_answers": [
+      "which ls"
+    ],
+    "regex": "^which\\s+ls$"
+  },
+  {
+    "id": "linux_medium_049",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "documentation",
+    "subtopic": "whatis",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "whatis"
+    ],
+    "question": "Display a short description of mkdir.",
+    "accepted_answers": [
+      "whatis mkdir"
+    ],
+    "regex": "^whatis\\s+mkdir$"
+  },
+  {
+    "id": "linux_medium_050",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "documentation",
+    "subtopic": "apropos",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "apropos"
+    ],
+    "question": "Search manual page descriptions related to files.",
+    "accepted_answers": [
+      "apropos file"
+    ],
+    "regex": "^apropos\\s+file$"
+  },
+  {
+    "id": "linux_medium_055",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "vi",
+    "subtopic": "save",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "vi"
+    ],
+    "question": "Write the vi command used to save and quit.",
+    "accepted_answers": [
+      ":wq",
+      ":x"
+    ]
+  },
+  {
+    "id": "linux_medium_061",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "ping",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "ping"
+    ],
+    "question": "Check whether google.com is reachable.",
+    "accepted_answers": [
+      "ping google.com"
+    ]
+  },
+  {
+    "id": "linux_medium_062",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "nslookup",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "nslookup"
+    ],
+    "question": "Find the IP address of google.com.",
+    "accepted_answers": [
+      "nslookup google.com"
+    ]
+  },
+  {
+    "id": "linux_medium_067",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "wildcards",
+    "subtopic": "asterisk",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "wildcards"
+    ],
+    "question": "List all .txt files in the current directory.",
+    "accepted_answers": [
+      "ls *.txt"
+    ]
+  },
+  {
+    "id": "linux_medium_068",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "overwrite",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "redirection"
+    ],
+    "question": "Write Hello into file.txt, overwriting existing content.",
+    "accepted_answers": [
+      "echo Hello > file.txt",
+      "echo \"Hello\" > file.txt"
+    ]
+  },
+  {
+    "id": "linux_medium_069",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "append",
+    "type": "coding",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "redirection"
+    ],
+    "question": "Append Linux to file.txt.",
+    "accepted_answers": [
+      "echo Linux >> file.txt"
+    ]
+  },
+  {
+    "id": "linux_hard_080",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "overwrite",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "redirection"
+    ],
+    "question": "Overwrite file.txt with the text 'Linux Rules'.",
+    "accepted_answers": [
+      "echo \"Linux Rules\" > file.txt",
+      "echo Linux Rules > file.txt"
+    ]
+  },
+  {
+    "id": "linux_hard_081",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "redirection",
+    "subtopic": "append",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "redirection"
+    ],
+    "question": "Append 'IITM' to file.txt.",
+    "accepted_answers": [
+      "echo IITM >> file.txt"
+    ]
+  },
+  {
+    "id": "linux_hard_082",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "ls",
+    "subtopic": "permissions",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "ls"
+    ],
+    "question": "Display detailed file information including permissions.",
+    "accepted_answers": [
+      "ls -l"
+    ]
+  },
+  {
+    "id": "linux_hard_083",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "chmod",
+    "subtopic": "permissions",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "chmod"
+    ],
+    "question": "Give rwxr-xr-x permissions to script.sh.",
+    "accepted_answers": [
+      "chmod 755 script.sh"
+    ]
+  },
+  {
+    "id": "linux_hard_094",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "diagnostics",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "ping"
+    ],
+    "question": "Check connectivity to example.com.",
+    "accepted_answers": [
+      "ping example.com"
+    ]
+  },
+  {
+    "id": "linux_hard_095",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "networking",
+    "subtopic": "dns",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "dig"
+    ],
+    "question": "Perform a DNS lookup for example.com using dig.",
+    "accepted_answers": [
+      "dig example.com"
+    ]
+  },
+  {
+    "id": "linux_hard_096",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "wildcards",
+    "subtopic": "listing",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "wildcards"
+    ],
+    "question": "List all .log files in the current directory.",
+    "accepted_answers": [
+      "ls *.log"
+    ]
+  },
+  {
+    "id": "linux_hard_097",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "file-size",
+    "subtopic": "stat",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "stat"
+    ],
+    "question": "Display detailed metadata of file.txt.",
+    "accepted_answers": [
+      "stat file.txt"
+    ]
+  },
+  {
+    "id": "linux_hard_098",
+    "week": 2,
+    "subject": "Linux System Commands",
+    "topic": "file-size",
+    "subtopic": "du",
+    "type": "coding",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "du"
+    ],
+    "question": "Display disk usage of the current directory.",
+    "accepted_answers": [
+      "du",
+      "du ."
+    ]
+  }
+]
