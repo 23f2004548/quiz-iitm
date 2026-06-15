@@ -46,6 +46,10 @@ def create_app(config_overrides=None):
     app.register_blueprint(quiz_bp, url_prefix='/api/quizzes')
     app.register_blueprint(questions_bp, url_prefix='/api')
     
+    @app.route('/')
+    def health_check():
+        return {"status": "healthy", "message": "LinuxMaster Backend API is running"}, 200
+    
     # Ensure tables are created on startup
     with app.app_context():
         db.create_all()
