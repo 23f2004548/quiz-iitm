@@ -1,0 +1,30 @@
+# Nuxt / Node / Frontend
+node_modules/
+.nuxt/
+.output/
+dist/
+.env
+*.local
+
+# Python / Backend
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.cache/
+*.db
+*.sqlite
+
+# System & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
