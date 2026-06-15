@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // Trigger Vercel Build - Force redeploy after submodule conversion
+console.log("--- BUILD TIME API BASE ---:", process.env.NUXT_PUBLIC_API_BASE || process.env.API_URL || "NOT_SET_FALLBACK_LOCALHOST");
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
