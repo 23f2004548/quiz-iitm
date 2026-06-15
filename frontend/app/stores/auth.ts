@@ -13,10 +13,11 @@ export const useAuthStore = defineStore('auth', () => {
 
   const isLoggedIn = computed(() => !!token.value)
 
-  // Configure axios base settings
+  // Configure axios base settings defensively stripping trailing slash if present
   const config = useRuntimeConfig()
+  const apiBase = config.public.apiBase ? config.public.apiBase.replace(/\/+$/, '') : 'http://localhost:5000'
   const apiInstance = axios.create({
-    baseURL: config.public.apiBase
+    baseURL: apiBase
   })
 
   // Add interceptor to append authorization header
