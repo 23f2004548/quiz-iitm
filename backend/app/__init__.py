@@ -18,11 +18,13 @@ def create_app(config_overrides=None):
         docker_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../database.db'))
         local_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../database.db'))
         
-        # Check which path is valid
-        if os.path.exists(os.path.dirname(local_path)):
-            db_path = local_path
-        else:
+        # In Docker (WORKDIR /app), local_path dirname resolves to '/' which is write-protected.
+        # If the local parent dir is '/' or does not exist, use docker_path.
+        local_parent = os.path.dirname(local_path)
+        if local_parent == '/' or not os.path.exists(local_parent) or os.path.isdir('/app'):
             db_path = docker_path
+        else:
+            db_path = local_path
             
         app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
