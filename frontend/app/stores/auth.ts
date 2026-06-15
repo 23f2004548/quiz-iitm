@@ -13,9 +13,15 @@ export const useAuthStore = defineStore('auth', () => {
 
   const isLoggedIn = computed(() => !!token.value)
 
-  // Configure axios base settings defensively stripping trailing slash if present
+  // Configure axios base settings defensively handling missing protocol or trailing slash
   const config = useRuntimeConfig()
-  const apiBase = config.public.apiBase ? config.public.apiBase.replace(/\/+$/, '') : 'http://localhost:5000'
+  let apiBase = config.public.apiBase ? config.public.apiBase.trim() : 'http://localhost:5000'
+  
+  if (apiBase && !/^https?:\/\//i.test(apiBase)) {
+    apiBase = 'https://' + apiBase
+  }
+  apiBase = apiBase.replace(/\/+$/, '')
+  
   const apiInstance = axios.create({
     baseURL: apiBase
   })
