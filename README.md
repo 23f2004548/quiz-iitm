@@ -1,5 +1,7 @@
 # LinuxMaster - Interactive Linux & IITM Quiz Platform
 
+🚀 **Live Demo:** [https://quiz-iitm.vercel.app](https://quiz-iitm.vercel.app)
+
 LinuxMaster is a gamified, Duolingo-like learning platform designed for mastering Linux system commands, Git/GitHub, Python, SQL, and IITM BS Degree subjects. The platform features interactive quizzes, an in-browser virtual terminal for hands-on practice, daily streaks, XP points, leaderboards, and an AI tutor explanation system.
 
 ---
